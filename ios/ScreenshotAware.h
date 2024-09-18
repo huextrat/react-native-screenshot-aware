@@ -1,12 +1,13 @@
+#import <React/RCTEventEmitter.h>
 
 #ifdef RCT_NEW_ARCH_ENABLED
 #import "RNScreenshotAwareSpec.h"
 
-@interface ScreenshotAware : NSObject <NativeScreenshotAwareSpec>
+@interface ScreenshotAware : RCTEventEmitter <RCTBridgeModule>
 #else
 #import <React/RCTBridgeModule.h>
 
-@interface ScreenshotAware : NSObject <RCTBridgeModule>
+@interface ScreenshotAware : RCTEventEmitter <RCTBridgeModule>
 #endif
 
 @end

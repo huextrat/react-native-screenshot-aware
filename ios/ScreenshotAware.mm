@@ -1,18 +1,43 @@
 #import "ScreenshotAware.h"
+#import "ScreenshotAwareImpl.h"
 
-@implementation ScreenshotAware
+@interface ScreenshotAware () <ScreenshotAwareImplDelegate>
+@end
+
+@implementation ScreenshotAware {
+    ScreenshotAwareImpl *moduleImpl;
+    BOOL hasListeners;
+}
+
 RCT_EXPORT_MODULE()
 
-// Example method
-// See // https://reactnative.dev/docs/native-modules-ios
-RCT_EXPORT_METHOD(multiply:(double)a
-                  b:(double)b
-                  resolve:(RCTPromiseResolveBlock)resolve
-                  reject:(RCTPromiseRejectBlock)reject)
-{
-    NSNumber *result = @(a * b);
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        moduleImpl = [ScreenshotAwareImpl new];
+        moduleImpl.delegate = self;
+    }
+    return self;
+}
 
-    resolve(result);
+- (void)handleEventWithName:(NSString * _Nonnull)name {
+    if (hasListeners) {
+        [self sendEventWithName:name body:nil];
+    }
+}
+
+- (NSArray<NSString *> *)supportedEvents {
+    return [ScreenshotAwareImpl supportedEvents];
+}
+
+- (void)startObserving
+{
+    hasListeners = YES;
+}
+
+-(void)stopObserving
+{
+    hasListeners = NO;
 }
 
 // Don't compile this code when we build for the old architecture.

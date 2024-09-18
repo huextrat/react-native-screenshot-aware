@@ -1,17 +1,16 @@
-import { useEffect, useState } from "react";
+import React from "react";
+
 import { StyleSheet, Text, View } from "react-native";
-import { multiply } from "react-native-screenshot-aware";
+import { useScreenshotAware } from "react-native-screenshot-aware";
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  useScreenshotAware(() => {
+    console.log("A screenshot was taken!");
+  });
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Example</Text>
     </View>
   );
 }
