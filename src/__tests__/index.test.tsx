@@ -1,1 +1,5 @@
-it.todo('write a test');
+describe("ScreenshotAware", () => {
+  it("true", () => {
+    expect(true).toBe(true);
+  });
+});

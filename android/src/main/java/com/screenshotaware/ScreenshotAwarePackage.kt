@@ -19,7 +19,6 @@ class ScreenshotAwarePackage : TurboReactPackage() {
   override fun getReactModuleInfoProvider(): ReactModuleInfoProvider {
     return ReactModuleInfoProvider {
       val moduleInfos: MutableMap<String, ReactModuleInfo> = HashMap()
-      val isTurboModule: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
       moduleInfos[ScreenshotAwareModule.NAME] = ReactModuleInfo(
         ScreenshotAwareModule.NAME,
         ScreenshotAwareModule.NAME,
@@ -27,7 +26,7 @@ class ScreenshotAwarePackage : TurboReactPackage() {
         false,  // needsEagerInit
         true,  // hasConstants
         false,  // isCxxModule
-        isTurboModule // isTurboModule
+        true // isTurboModule
       )
       moduleInfos
     }

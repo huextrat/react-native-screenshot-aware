@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-screenshot-aware';
+import { useEffect, useState } from "react";
+import { StyleSheet, Text, View } from "react-native";
+import { multiply } from "react-native-screenshot-aware";
 
 export default function App() {
   const [result, setResult] = useState<number | undefined>();
@@ -19,8 +19,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
   box: {
     width: 60,
