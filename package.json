@@ -1,7 +1,7 @@
 {
   "name": "react-native-screenshot-aware",
   "version": "0.0.1",
-  "description": "Screenshot Aware on Android & iOS",
+  "description": "React Native module for real-time screenshot detection on Android and iOS",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "react-native": "src/index.ts",

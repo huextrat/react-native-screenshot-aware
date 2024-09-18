@@ -1,6 +1,6 @@
+import { useEffect } from "react";
 import { NativeEventEmitter } from "react-native";
 import NativeScreenshotAware from "./NativeScreenshotAware";
-import { useEffect } from "react";
 
 const moduleEventEmitter = new NativeEventEmitter(NativeScreenshotAware);
 
