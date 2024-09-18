@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.0.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v0.0.2...v1.0.0) (2024-09-18)
+
+
+### Features
+
+* **major:** v1.0.0 ([3b405a2](https://github.com/huextrat/react-native-screenshot-aware/commit/3b405a264e7e174c628c3f594e6c4dbc51606140))
+
 ## [0.0.2](https://github.com/huextrat/react-native-screenshot-aware/compare/v0.0.1...v0.0.2) (2024-09-18)
 
 
