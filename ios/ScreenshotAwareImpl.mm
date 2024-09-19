@@ -1,13 +1,13 @@
 #import "ScreenshotAwareImpl.h"
 #import <React/RCTUtils.h>
 
-static NSString *const kRNScreenshotEventName = @"ScreenshotEvent";
+static NSString *const kRNScreenshotAwareEventName = @"ScreenshotAwareEvent";
 
 @implementation ScreenshotAwareImpl
 
 + (NSArray<NSString *> *)supportedEvents
 {
-    return @[kRNScreenshotEventName];
+    return @[kRNScreenshotAwareEventName];
 }
 
 - (instancetype)init
@@ -29,7 +29,7 @@ static NSString *const kRNScreenshotEventName = @"ScreenshotEvent";
 
 - (void)screenshotDetected:(NSNotification *)notification
 {
-    [self.delegate handleEventWithName:kRNScreenshotEventName];
+    [self.delegate handleEventWithName:kRNScreenshotAwareEventName];
 }
 
 @end
