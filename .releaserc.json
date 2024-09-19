@@ -1,70 +1,22 @@
 {
-    "branches": [
-        "main"
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogTitle": "# Changelog"
+      }
     ],
-    "plugins": [
-        [
-            "@semantic-release/commit-analyzer",
-            {
-                "preset": "angular",
-                "releaseRules": [
-                    {
-                        "type": "docs",
-                        "scope": "README",
-                        "release": "patch"
-                    },
-                    {
-                        "type": "fix",
-                        "release": "patch"
-                    },
-                    {
-                        "type": "build",
-                        "release": "patch"
-                    },
-                    {
-                        "type": "refactor",
-                        "release": "patch"
-                    },
-                    {
-                        "type": "feat",
-                        "release": "patch"
-                    },
-                    {
-                        "type": "feat",
-                        "scope": "minor",
-                        "release": "minor"
-                    },
-                    {
-                        "type": "feat",
-                        "scope": "major",
-                        "release": "major"
-                    }
-                ],
-                "parserOpts": {
-                    "noteKeywords": [
-                        "BREAKING CHANGE",
-                        "BREAKING CHANGES"
-                    ]
-                }
-            }
-        ],
-        "@semantic-release/release-notes-generator",
-        [
-            "@semantic-release/changelog",
-            {
-                "changelogTitle": "# Changelog"
-            }
-        ],
-        "@semantic-release/npm",
-        [
-            "@semantic-release/git",
-            {
-                "assets": [
-                    "CHANGELOG.md"
-                ],
-                "message": "chore(release): ${nextRelease.version} [skip ci]"
-            }
-        ],
-        "@semantic-release/github"
-    ]
+    "@semantic-release/npm",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "package.json"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "@semantic-release/github"
+  ]
 }
