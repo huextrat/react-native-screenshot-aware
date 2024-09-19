@@ -64,8 +64,10 @@
     "@commitlint/config-conventional": "19.5.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
+    "@testing-library/react-native": "12.7.2",
     "@types/jest": "29.5.13",
     "@types/react": "18.3.7",
+    "@types/react-test-renderer": "18.3.0",
     "commitlint": "19.5.0",
     "del-cli": "5.1.0",
     "husky": "9.1.6",
@@ -73,6 +75,7 @@
     "react": "18.3.1",
     "react-native": "0.75.3",
     "react-native-builder-bob": "0.30.2",
+    "react-test-renderer": "18.3.1",
     "semantic-release": "24.1.1",
     "turbo": "2.1.2",
     "typescript": "5.6.2"

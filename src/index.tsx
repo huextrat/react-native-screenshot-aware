@@ -62,7 +62,7 @@ export const useScreenshotAware = (callback: () => void) => {
  * }
  * ```
  */
-export default {
+const ScreenshotAware = {
   /**
    * Adds a listener for screenshot events.
    *
@@ -79,3 +79,5 @@ export default {
   removeAllListeners: () =>
     moduleEventEmitter.removeAllListeners("ScreenshotAwareEvent"),
 };
+
+export default ScreenshotAware;
