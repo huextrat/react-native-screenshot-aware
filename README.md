@@ -37,6 +37,14 @@ npm install react-native-screenshot-aware
 - Leverages the new `DETECT_SCREEN_CAPTURE` permission introduced in Android 14
 - Provides a more privacy-friendly and performant approach to screenshot detection
 
+### Permissions
+
+To use the screenshot detection feature on Android, you need to add the following permission to your `AndroidManifest.xml` file:
+
+```xml
+<uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE" />
+```
+
 > **Note**: Callbacks will never be triggered on devices running Android versions below 14. This is due to the reliance on the new `DETECT_SCREEN_CAPTURE` permission and APIs introduced in Android 14, which are not available in earlier versions.
 
 > **Note**: The decision to support only Android 14+ is based on the introduction of new, dedicated screenshot detection APIs. These APIs offer improved performance and respect user privacy better than previous methods. For more details, see the [Android 14 screenshot detection documentation](https://developer.android.com/about/versions/14/features/screenshot-detection).

@@ -49,6 +49,6 @@ class ScreenshotAwareModule internal constructor(context: ReactApplicationContex
 
   companion object {
     const val NAME = "ScreenshotAware"
-    const val EVENT_NAME: String = "ScreenshotEvent"
+    const val EVENT_NAME: String = "ScreenshotAwareEvent"
   }
 }
