@@ -1,5 +1,8 @@
 jest.mock("react-native/Libraries/BatchedBridge/NativeModules", () => ({
   ScreenshotAware: {
-    mulitply: jest.fn(),
+    addListener: jest.fn(),
+    removeListeners: jest.fn(),
   },
+  PlatformConstants: {},
+  DeviceInfo: {},
 }));
