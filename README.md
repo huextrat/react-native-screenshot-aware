@@ -92,6 +92,20 @@ useEffect(() => {
 }, [])
 ```
 
+### `removeAllListeners()`
+
+This function allows you to remove all listeners for the screenshot event.
+
+#### Example
+
+```javascript
+import ScreenshotAware from 'react-native-screenshot-aware';
+
+function removeScreenshotListeners() {
+  ScreenshotAware.removeAllListeners();
+}
+```
+
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
