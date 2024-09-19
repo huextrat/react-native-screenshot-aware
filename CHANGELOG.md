@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.1...v1.0.2) (2024-09-19)
+
+
+### Bug Fixes
+
+* bump version on package with semantic-release ([#5](https://github.com/huextrat/react-native-screenshot-aware/issues/5)) ([a747732](https://github.com/huextrat/react-native-screenshot-aware/commit/a7477326466b798176e29a104fd440719d217064))
+
 ## [1.0.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.0...v1.0.1) (2024-09-18)
 
 
