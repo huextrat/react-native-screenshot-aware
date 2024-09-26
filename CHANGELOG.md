@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.2...v1.0.3) (2024-09-26)
+
+
+### Bug Fixes
+
+* **ios:** add requiresMainQueueSetup ([#12](https://github.com/huextrat/react-native-screenshot-aware/issues/12)) ([286c573](https://github.com/huextrat/react-native-screenshot-aware/commit/286c5737c8b6aef3501252773797e247f4662a4b))
+
 ## [1.0.2](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.1...v1.0.2) (2024-09-19)
 
 
