@@ -9,9 +9,7 @@ import com.facebook.react.modules.core.DeviceEventManagerModule
 class ScreenshotAwareModule internal constructor(context: ReactApplicationContext) :
   ScreenshotAwareSpec(context) {
 
-  private var screenCaptureCallback = Activity.ScreenCaptureCallback {
-    sendEvent()
-  }
+  private var screenCaptureCallback: Any? = null
 
   override fun getName(): String {
     return NAME
@@ -20,16 +18,31 @@ class ScreenshotAwareModule internal constructor(context: ReactApplicationContex
   override fun initialize() {
     super.initialize()
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
-      reactApplicationContext.currentActivity?.let {
-        currentActivity?.registerScreenCaptureCallback(it.mainExecutor, screenCaptureCallback)
-      }
+      initializeScreenCaptureCallback()
+    }
+  }
+
+  @androidx.annotation.RequiresApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
+  private fun initializeScreenCaptureCallback() {
+    screenCaptureCallback = Activity.ScreenCaptureCallback {
+      sendEvent()
+    }
+    reactApplicationContext.currentActivity?.let {
+      it.registerScreenCaptureCallback(it.mainExecutor, screenCaptureCallback as Activity.ScreenCaptureCallback)
     }
   }
 
   override fun invalidate() {
     super.invalidate()
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
-      currentActivity?.unregisterScreenCaptureCallback(screenCaptureCallback)
+      unregisterScreenCaptureCallback()
+    }
+  }
+
+  @androidx.annotation.RequiresApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
+  private fun unregisterScreenCaptureCallback() {
+    screenCaptureCallback?.let {
+      reactApplicationContext.currentActivity?.unregisterScreenCaptureCallback(it as Activity.ScreenCaptureCallback)
     }
   }
 
