@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.3...v1.0.4) (2024-09-30)
+
+
+### Bug Fixes
+
+* avoid error below Android 14 ([#15](https://github.com/huextrat/react-native-screenshot-aware/issues/15)) ([85f8725](https://github.com/huextrat/react-native-screenshot-aware/commit/85f8725c30a37a19f8616652082485e6822dea08))
+
 ## [1.0.3](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.2...v1.0.3) (2024-09-26)
 
 
