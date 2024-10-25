@@ -3393,9 +3393,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-native@npm:12.7.2":
-  version: 12.7.2
-  resolution: "@testing-library/react-native@npm:12.7.2"
+"@testing-library/react-native@npm:12.8.0":
+  version: 12.8.0
+  resolution: "@testing-library/react-native@npm:12.8.0"
   dependencies:
     jest-matcher-utils: "npm:^29.7.0"
     pretty-format: "npm:^29.7.0"
@@ -3408,7 +3408,7 @@ __metadata:
   peerDependenciesMeta:
     jest:
       optional: true
-  checksum: 10/6e50342eb6d6424abf8fb89006b21a127988bdf3697dba69d63254da7ed8eadda7ab5fe02873c63a7dd3e12719e578aebf4a5f12049a6490cd50a07bc6e6df54
+  checksum: 10/41ba07ef5297f8c4f7ca5db2d857398142d074264c5dd09407500978fb9a73c17b17c163679fa95ca96b5b20c09db43ed5eaf97bb07ab7fb4b976b2b853dd0c9
   languageName: node
   linkType: hard
 
@@ -9418,7 +9418,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:19.5.0"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
-    "@testing-library/react-native": "npm:12.7.2"
+    "@testing-library/react-native": "npm:12.8.0"
     "@types/jest": "npm:29.5.14"
     "@types/react": "npm:18.3.12"
     "@types/react-test-renderer": "npm:18.3.0"
