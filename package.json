@@ -96,6 +96,14 @@
       "<rootDir>/lib/"
     ],
     "setupFilesAfterEnv": ["<rootDir>/setupJest.ts"],
+    "transform": {
+      "^.+\\.(js)$": [
+        "babel-jest",
+        {
+          "plugins": ["babel-plugin-syntax-hermes-parser"]
+        }
+      ]
+    },
     "collectCoverageFrom": [
       "src/**/*.ts",
       "src/**/*.tsx",
