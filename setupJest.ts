@@ -4,5 +4,4 @@ jest.mock("react-native/Libraries/BatchedBridge/NativeModules", () => ({
     removeListeners: jest.fn(),
   },
   PlatformConstants: {},
-  DeviceInfo: {},
 }));
