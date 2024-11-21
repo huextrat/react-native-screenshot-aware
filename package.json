@@ -77,7 +77,7 @@
     "react-native-builder-bob": "0.33.0",
     "react-test-renderer": "18.3.1",
     "semantic-release": "24.2.0",
-    "turbo": "2.3.0",
+    "turbo": "2.3.1",
     "typescript": "5.6.3"
   },
   "resolutions": {
