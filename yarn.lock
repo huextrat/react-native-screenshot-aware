@@ -3253,6 +3253,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native/js-polyfills@npm:0.76.3":
+  version: 0.76.3
+  resolution: "@react-native/js-polyfills@npm:0.76.3"
+  checksum: 10/6bf86f6003a26fcee796a5e6642eea0c8b8f49016d5fb8c39a5c13397b7c3c26cc0e3c96c9dc40ac8983148a252904ec6fa2201fcbe6c47819bde891d2db0a77
+  languageName: node
+  linkType: hard
+
 "@react-native/metro-babel-transformer@npm:0.76.2":
   version: 0.76.2
   resolution: "@react-native/metro-babel-transformer@npm:0.76.2"
@@ -3267,15 +3274,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/metro-config@npm:0.76.2":
-  version: 0.76.2
-  resolution: "@react-native/metro-config@npm:0.76.2"
+"@react-native/metro-babel-transformer@npm:0.76.3":
+  version: 0.76.3
+  resolution: "@react-native/metro-babel-transformer@npm:0.76.3"
   dependencies:
-    "@react-native/js-polyfills": "npm:0.76.2"
-    "@react-native/metro-babel-transformer": "npm:0.76.2"
+    "@babel/core": "npm:^7.25.2"
+    "@react-native/babel-preset": "npm:0.76.3"
+    hermes-parser: "npm:0.23.1"
+    nullthrows: "npm:^1.1.1"
+  peerDependencies:
+    "@babel/core": "*"
+  checksum: 10/00cc1092042a530665ceadae6315441de8efb41448f2011fdfa7f586c8787346ec90c68f740980b56b1271cea2436497d82b78f5f1551b8df83eab032d05b251
+  languageName: node
+  linkType: hard
+
+"@react-native/metro-config@npm:0.76.3":
+  version: 0.76.3
+  resolution: "@react-native/metro-config@npm:0.76.3"
+  dependencies:
+    "@react-native/js-polyfills": "npm:0.76.3"
+    "@react-native/metro-babel-transformer": "npm:0.76.3"
     metro-config: "npm:^0.81.0"
     metro-runtime: "npm:^0.81.0"
-  checksum: 10/0f1f13e6f54c7a68ba3594785ce226a947818bfdc5370fa8e960b05a27a8b217c197b93f3fd5aead6b1eeb8d9440a44471e8a5acae786de6f83a71bc71038a47
+  checksum: 10/7b80a450d3e97f7e462f3f8b0e22609c24084fcf450c77b7d641c9225600cef2af1cb97f90b6dfcfd710f274bb4044f2609438ccb420a2854feb72264978893b
   languageName: node
   linkType: hard
 
@@ -9587,7 +9608,7 @@ __metadata:
     "@babel/preset-env": "npm:^7.20.0"
     "@babel/runtime": "npm:^7.20.0"
     "@react-native/babel-preset": "npm:0.76.3"
-    "@react-native/metro-config": "npm:0.76.2"
+    "@react-native/metro-config": "npm:0.76.3"
     "@react-native/typescript-config": "npm:0.76.2"
     react: "npm:18.3.1"
     react-native: "npm:0.76.2"
