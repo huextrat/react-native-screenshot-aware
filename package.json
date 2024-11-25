@@ -88,7 +88,7 @@
     "react-native": "*"
   },
   "workspaces": ["example"],
-  "packageManager": "yarn@4.5.2",
+  "packageManager": "yarn@4.5.3",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
