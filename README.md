@@ -106,6 +106,18 @@ function removeScreenshotListeners() {
 }
 ```
 
+## Jest Mocks
+
+```javascript
+jest.mock('react-native-screenshot-aware', () => ({
+  useScreenshotAware: jest.fn(),
+  addListener: jest.fn().mockReturnValue({
+    remove: jest.fn(),
+  }),
+  removeAllListeners: jest.fn(),
+}));
+```
+
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
