@@ -3634,12 +3634,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:18.3.0":
-  version: 18.3.0
-  resolution: "@types/react-test-renderer@npm:18.3.0"
+"@types/react-test-renderer@npm:18.3.1":
+  version: 18.3.1
+  resolution: "@types/react-test-renderer@npm:18.3.1"
   dependencies:
-    "@types/react": "npm:*"
-  checksum: 10/c53683990bd194cb68e3987bda79c78eff41517f7a747e92f3e54217c2ce3addd031b8a45bf631982c909cc2caeeb905372f322758e05bb76c03754a3f24426e
+    "@types/react": "npm:^18"
+  checksum: 10/f8cc23cc8decdb6068cdc8f8c306e189eab8e569443ce97b216e757ee42eb20b18d2280ef41e2955668413f14be92765a3ba86cfcfeeae6b20c965acd9674786
   languageName: node
   linkType: hard
 
@@ -9525,7 +9525,7 @@ __metadata:
     "@testing-library/react-native": "npm:12.9.0"
     "@types/jest": "npm:29.5.14"
     "@types/react": "npm:18.3.14"
-    "@types/react-test-renderer": "npm:18.3.0"
+    "@types/react-test-renderer": "npm:18.3.1"
     commitlint: "npm:19.6.0"
     del-cli: "npm:6.0.0"
     husky: "npm:9.1.7"
