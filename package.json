@@ -67,7 +67,7 @@
     "@testing-library/react-native": "12.9.0",
     "@types/jest": "29.5.14",
     "@types/react": "19.0.1",
-    "@types/react-test-renderer": "18.3.1",
+    "@types/react-test-renderer": "19.0.0",
     "commitlint": "19.6.0",
     "del-cli": "6.0.0",
     "husky": "9.1.7",
