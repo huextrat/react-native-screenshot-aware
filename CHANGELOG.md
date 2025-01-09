@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.4...v1.0.5) (2025-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-native to v0.76.6 ([#113](https://github.com/huextrat/react-native-screenshot-aware/issues/113)) ([22f0da2](https://github.com/huextrat/react-native-screenshot-aware/commit/22f0da2f3dda85b4d8f600e93edadf3a79b8e84d))
+
 ## [1.0.4](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.3...v1.0.4) (2024-09-30)
 
 
