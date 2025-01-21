@@ -19,7 +19,7 @@
     "@babel/runtime": "^7.20.0",
     "@react-native/babel-preset": "0.77.0",
     "@react-native/metro-config": "0.77.0",
-    "@react-native/typescript-config": "0.76.6",
+    "@react-native/typescript-config": "0.77.0",
     "react-native-builder-bob": "^0.35.0"
   },
   "engines": {
