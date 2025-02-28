@@ -5,9 +5,11 @@ import android.os.Build
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.modules.core.DeviceEventManagerModule
+import com.facebook.react.module.annotations.ReactModule
 
-class ScreenshotAwareModule internal constructor(context: ReactApplicationContext) :
-  ScreenshotAwareSpec(context) {
+@ReactModule(name = ScreenshotAwareModule.NAME)
+class ScreenshotAwareModule internal constructor(reactContext: ReactApplicationContext) :
+  ScreenshotAwareSpec(reactContext) {
 
   private var screenCaptureCallback: Any? = null
 

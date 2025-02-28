@@ -1,7 +1,7 @@
 #import <React/RCTEventEmitter.h>
 
 #ifdef RCT_NEW_ARCH_ENABLED
-#import "ScreenshotAwareSpec.h"
+#import "generated/RNScreenshotAwareSpec/RNScreenshotAwareSpec.h"
 
 @interface ScreenshotAware : RCTEventEmitter <RCTBridgeModule>
 #else
