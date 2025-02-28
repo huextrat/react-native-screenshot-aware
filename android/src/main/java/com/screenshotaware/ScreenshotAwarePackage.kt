@@ -1,13 +1,13 @@
 package com.screenshotaware
 
-import com.facebook.react.TurboReactPackage
+import com.facebook.react.BaseReactPackage
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.NativeModule
 import com.facebook.react.module.model.ReactModuleInfoProvider
 import com.facebook.react.module.model.ReactModuleInfo
 import java.util.HashMap
 
-class ScreenshotAwarePackage : TurboReactPackage() {
+class ScreenshotAwarePackage : BaseReactPackage() {
   override fun getModule(name: String, reactContext: ReactApplicationContext): NativeModule? {
     return if (name == ScreenshotAwareModule.NAME) {
       ScreenshotAwareModule(reactContext)
@@ -24,7 +24,6 @@ class ScreenshotAwarePackage : TurboReactPackage() {
         ScreenshotAwareModule.NAME,
         false,  // canOverrideExistingModule
         false,  // needsEagerInit
-        true,  // hasConstants
         false,  // isCxxModule
         true // isTurboModule
       )
