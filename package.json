@@ -78,7 +78,7 @@
     "react-test-renderer": "19.0.0",
     "semantic-release": "24.2.3",
     "turbo": "2.4.4",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "resolutions": {
     "@types/react": "19.0.10"
