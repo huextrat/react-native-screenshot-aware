@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.2.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.1.0...v1.2.0) (2025-03-01)
+
+
+### Features
+
+* add expo plugin ([#159](https://github.com/huextrat/react-native-screenshot-aware/issues/159)) ([30a61e6](https://github.com/huextrat/react-native-screenshot-aware/commit/30a61e603f05e30995a33bf481df05915db3a381))
+
 # [1.1.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.0.8...v1.1.0) (2025-02-28)
 
 
