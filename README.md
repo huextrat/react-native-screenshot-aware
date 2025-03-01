@@ -37,6 +37,26 @@ npm install react-native-screenshot-aware
 - Leverages the new `DETECT_SCREEN_CAPTURE` permission introduced in Android 14
 - Provides a more privacy-friendly and performant approach to screenshot detection
 
+## Expo
+
+For Expo projects, you can use the Expo plugin in `app.json`
+
+```json
+"plugins": [
+  "react-native-screenshot-aware"
+],
+```
+
+or add the permission manually to your `app.json`:
+
+```json
+"android": {
+  "permissions": ["android.permission.DETECT_SCREEN_CAPTURE"]
+}
+```
+
+## Bare RN
+
 ### Permissions
 
 To use the screenshot detection feature on Android, you need to add the following permission to your `AndroidManifest.xml` file:
