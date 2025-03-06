@@ -135,15 +135,16 @@
     "source": "src",
     "output": "lib",
     "targets": [
+      "codegen",
       "commonjs",
       "module",
       "typescript"
     ]
   },
   "codegenConfig": {
-    "name": "RNScreenshotAwareSpec",
+    "name": "ScreenshotAwareSpec",
     "type": "modules",
-    "jsSrcsDir": "src",
+    "jsSrcsDir": "./src/codegenSpec",
     "outputDir": {
       "ios": "ios/generated",
       "android": "android/generated"
