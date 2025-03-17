@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.0...v1.2.1) (2025-03-17)
+
+
+### Bug Fixes
+
+* codegen ([076ab2a](https://github.com/huextrat/react-native-screenshot-aware/commit/076ab2ac9766bdac8bcc2ab48068bcc00051473d))
+
 ## [1.2.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.0...v1.2.1) (2025-03-15)
 
 
