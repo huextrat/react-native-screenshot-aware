@@ -4946,12 +4946,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.0.11":
-  version: 19.0.11
-  resolution: "@types/react@npm:19.0.11"
+"@types/react@npm:19.0.12":
+  version: 19.0.12
+  resolution: "@types/react@npm:19.0.12"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/b26cac1814b78190395e44bae6e3d8864a50530b17e86aeb1ea63470037c263f906a8edc4f9e604e6416fdbeb75033cb7262efd5b37e933141d9f5cd9ca22040
+  checksum: 10/2476295f27371ea67f0ba3ca8fae3c683fc8d086b8b387e0519e67ff5731072c6ff0372fbd5a4c6d760895b1e7dc8997ac518f07bf6b6a8d1e40aeb5d2068b9e
   languageName: node
   linkType: hard
 
@@ -12489,7 +12489,7 @@ __metadata:
     "@semantic-release/git": "npm:10.0.1"
     "@testing-library/react-native": "npm:13.2.0"
     "@types/jest": "npm:29.5.14"
-    "@types/react": "npm:19.0.11"
+    "@types/react": "npm:19.0.12"
     "@types/react-test-renderer": "npm:19.0.0"
     commitlint: "npm:19.8.0"
     del-cli: "npm:6.0.0"
