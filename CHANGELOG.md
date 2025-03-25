@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.3.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.2...v1.3.0) (2025-03-25)
+
+
+### Features
+
+* min RN peer dependency is now 0.76+ ([a6e2b62](https://github.com/huextrat/react-native-screenshot-aware/commit/a6e2b620fbdd7ea8c7f47fefbae0f76d9df06167))
+
 ## [1.2.2](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.1...v1.2.2) (2025-03-25)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "react-native-screenshot-aware",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "React Native module for real-time screenshot detection on Android and iOS",
   "source": "src/index.tsx",
   "main": "lib/commonjs/index.js",
@@ -95,7 +95,9 @@
       "optional": true
     }
   },
-  "workspaces": ["example"],
+  "workspaces": [
+    "example"
+  ],
   "packageManager": "yarn@4.7.0",
   "jest": {
     "preset": "react-native",
@@ -103,12 +105,16 @@
       "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ],
-    "setupFilesAfterEnv": ["<rootDir>/setupJest.ts"],
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupJest.ts"
+    ],
     "transform": {
       "^.+\\.(js)$": [
         "babel-jest",
         {
-          "plugins": ["babel-plugin-syntax-hermes-parser"]
+          "plugins": [
+            "babel-plugin-syntax-hermes-parser"
+          ]
         }
       ]
     },
@@ -121,12 +127,19 @@
     "collectCoverage": true
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "react-native-builder-bob": {
     "source": "src",
     "output": "lib",
-    "targets": ["codegen", "commonjs", "module", "typescript"]
+    "targets": [
+      "codegen",
+      "commonjs",
+      "module",
+      "typescript"
+    ]
   },
   "codegenConfig": {
     "name": "ScreenshotAwareSpec",
