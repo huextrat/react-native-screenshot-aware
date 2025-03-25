@@ -19,6 +19,14 @@
 - 📱 Supports Android 14+ (API level 34+) and iOS 14+
 - 🏗️ Supports the new architecture for React Native
 
+
+## Compatibility
+
+### Version Compatibility
+
+- React Native <0.76, use version 1.2.2 or below 1.2.0 of this package (1.2.1 is buggy)
+- React Native >=0.76, use version 1.3.0 or later
+
 ## Installation
 
 ```sh
