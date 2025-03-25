@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.0...v1.2.1) (2025-03-25)
+
+
+### Bug Fixes
+
+* codegen ([076ab2a](https://github.com/huextrat/react-native-screenshot-aware/commit/076ab2ac9766bdac8bcc2ab48068bcc00051473d))
+* **deps:** update dependency react-native to v0.78.1 ([#179](https://github.com/huextrat/react-native-screenshot-aware/issues/179)) ([8aa680e](https://github.com/huextrat/react-native-screenshot-aware/commit/8aa680ee3dbd43c1467089b94184b0e1853582bc))
+* remove codegen from targets of builder bob ([979f547](https://github.com/huextrat/react-native-screenshot-aware/commit/979f547da9613563e3caaac6a4effafc64165af8))
+
 ## [1.2.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.0...v1.2.1) (2025-03-24)
 
 
