@@ -12367,7 +12367,7 @@ __metadata:
     typescript: "npm:5.8.2"
   peerDependencies:
     react: "*"
-    react-native: "*"
+    react-native: ">=0.76"
   peerDependenciesMeta:
     expo:
       optional: true
