@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.0...v1.3.1) (2025-03-28)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.1.0 ([#194](https://github.com/huextrat/react-native-screenshot-aware/issues/194)) ([2ea998a](https://github.com/huextrat/react-native-screenshot-aware/commit/2ea998a801d68203246b08711f631a41a3db53bc))
+
 # [1.3.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.2.2...v1.3.0) (2025-03-25)
 
 
