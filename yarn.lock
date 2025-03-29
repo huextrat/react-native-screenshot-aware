@@ -12290,9 +12290,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:0.38.4, react-native-builder-bob@npm:^0.38.0":
-  version: 0.38.4
-  resolution: "react-native-builder-bob@npm:0.38.4"
+"react-native-builder-bob@npm:0.39.0, react-native-builder-bob@npm:^0.39.0":
+  version: 0.39.0
+  resolution: "react-native-builder-bob@npm:0.39.0"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-transform-strict-mode": "npm:^7.24.7"
@@ -12302,7 +12302,6 @@ __metadata:
     "@babel/preset-typescript": "npm:^7.24.7"
     babel-plugin-module-resolver: "npm:^5.0.2"
     browserslist: "npm:^4.20.4"
-    cosmiconfig: "npm:^9.0.0"
     cross-spawn: "npm:^7.0.3"
     dedent: "npm:^0.7.0"
     del: "npm:^6.1.1"
@@ -12318,7 +12317,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     bob: bin/bob
-  checksum: 10/ccc819a6290296bc0bbc4fd674b476af849ff6e662585e7f96a81a1c414348e56f66f53dfedaf866b0209f913bc8535de35fa50b77ff8ca72d53f4712f24084c
+  checksum: 10/125abcd7c1d7ccea93239eaf79bb1e6cffa31a7a48170a29d22951fcfd09e497ba0447d25363fae793f52936c123931de09ce0ab0ba0b5a276d6bd48ede9b4f9
   languageName: node
   linkType: hard
 
@@ -12337,7 +12336,7 @@ __metadata:
     "@react-native/typescript-config": "npm:0.78.1"
     react: "npm:19.1.0"
     react-native: "npm:0.78.1"
-    react-native-builder-bob: "npm:^0.38.0"
+    react-native-builder-bob: "npm:^0.39.0"
   languageName: unknown
   linkType: soft
 
@@ -12362,7 +12361,7 @@ __metadata:
     jest: "npm:29.7.0"
     react: "npm:19.1.0"
     react-native: "npm:0.78.1"
-    react-native-builder-bob: "npm:0.38.4"
+    react-native-builder-bob: "npm:0.39.0"
     react-test-renderer: "npm:19.1.0"
     semantic-release: "npm:24.2.3"
     turbo: "npm:2.4.4"
