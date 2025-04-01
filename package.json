@@ -145,14 +145,9 @@
     "name": "ScreenshotAwareSpec",
     "type": "modules",
     "jsSrcsDir": "./src/codegenSpec",
-    "outputDir": {
-      "ios": "ios/generated",
-      "android": "android/generated"
-    },
     "android": {
       "javaPackageName": "com.screenshotaware"
-    },
-    "includesGeneratedCode": true
+    }
   },
   "create-react-native-library": {
     "type": "turbo-module",
