@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.1...v1.3.2) (2025-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-native to v0.78.2 ([#203](https://github.com/huextrat/react-native-screenshot-aware/issues/203)) ([8a984de](https://github.com/huextrat/react-native-screenshot-aware/commit/8a984def339bf7d36a9516ea4d3d8b5bb47a40dc))
+* **new-arch:** missing react-native.config.js file ([#208](https://github.com/huextrat/react-native-screenshot-aware/issues/208)) ([da70b76](https://github.com/huextrat/react-native-screenshot-aware/commit/da70b765dc2c4bcb172b059c9a04f593e4ba34e8))
+
 ## [1.3.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.0...v1.3.1) (2025-03-28)
 
 
