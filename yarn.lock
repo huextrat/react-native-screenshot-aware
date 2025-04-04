@@ -27,6 +27,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ark/schema@npm:0.45.7":
+  version: 0.45.7
+  resolution: "@ark/schema@npm:0.45.7"
+  dependencies:
+    "@ark/util": "npm:0.45.7"
+  checksum: 10/533fabcf21b5ca2246c5545936dcc7d23538b30945a06454322eeafa2a234f13b955cf5fa616e4bc8970f0816099705a49b7d5ed5f72cbdda8c9259b4bb867e6
+  languageName: node
+  linkType: hard
+
+"@ark/util@npm:0.45.7":
+  version: 0.45.7
+  resolution: "@ark/util@npm:0.45.7"
+  checksum: 10/0ef898adb8f482ccf5d311bcd430e6a451a4f91d174b7351708d40aa762524ab55b944b9d3275a08928af7b277c0d2edb7a2ec980ce198571232ea1e5cbef2bc
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:7.10.4, @babel/code-frame@npm:~7.10.4":
   version: 7.10.4
   resolution: "@babel/code-frame@npm:7.10.4"
@@ -5154,6 +5170,16 @@ __metadata:
   version: 1.0.0
   resolution: "argv-formatter@npm:1.0.0"
   checksum: 10/6295a61146a6ac55b2b2d97f19ad3d69ac85840cebf9146f6827fccc10a9e3ef94981566db272510b0cfe1690440c57680c9ab6bea76b89affdc639b56f81601
+  languageName: node
+  linkType: hard
+
+"arktype@npm:^2.1.15":
+  version: 2.1.17
+  resolution: "arktype@npm:2.1.17"
+  dependencies:
+    "@ark/schema": "npm:0.45.7"
+    "@ark/util": "npm:0.45.7"
+  checksum: 10/07f2c91af0c93d87e3461387dd88ae3024b7b846e135746070767ef44391116ac36435c9a1d7f0dfe3559e7400eb6f703a6950ffb818abe3f0e9668aa19f8ac2
   languageName: node
   linkType: hard
 
@@ -12265,9 +12291,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:0.39.1, react-native-builder-bob@npm:^0.39.0":
-  version: 0.39.1
-  resolution: "react-native-builder-bob@npm:0.39.1"
+"react-native-builder-bob@npm:0.40.0, react-native-builder-bob@npm:^0.40.0":
+  version: 0.40.0
+  resolution: "react-native-builder-bob@npm:0.40.0"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-transform-strict-mode": "npm:^7.24.7"
@@ -12275,6 +12301,7 @@ __metadata:
     "@babel/preset-flow": "npm:^7.24.7"
     "@babel/preset-react": "npm:^7.24.7"
     "@babel/preset-typescript": "npm:^7.24.7"
+    arktype: "npm:^2.1.15"
     babel-plugin-module-resolver: "npm:^5.0.2"
     browserslist: "npm:^4.20.4"
     cross-spawn: "npm:^7.0.3"
@@ -12292,7 +12319,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     bob: bin/bob
-  checksum: 10/d03cd3578d33c036245e4c04de5e11346539fcee68f3162a8db203a516a26e46f86cfbbff6f9fce6ac955b3518c2e9175175de837b21d9bdd3d381fb3e25c8c9
+  checksum: 10/105c3a2f82568c9d7a77ab6e2bfa346b991d849a722c64fc3b9f840c1ba0880b4222e2249c4cec8ac3500d1130d9341238ed34259c534c527d8c5e3bfc569091
   languageName: node
   linkType: hard
 
@@ -12311,7 +12338,7 @@ __metadata:
     "@react-native/typescript-config": "npm:0.78.2"
     react: "npm:19.1.0"
     react-native: "npm:0.78.2"
-    react-native-builder-bob: "npm:^0.39.0"
+    react-native-builder-bob: "npm:^0.40.0"
   languageName: unknown
   linkType: soft
 
@@ -12336,7 +12363,7 @@ __metadata:
     jest: "npm:29.7.0"
     react: "npm:19.1.0"
     react-native: "npm:0.78.2"
-    react-native-builder-bob: "npm:0.39.1"
+    react-native-builder-bob: "npm:0.40.0"
     react-test-renderer: "npm:19.1.0"
     semantic-release: "npm:24.2.3"
     turbo: "npm:2.5.0"
