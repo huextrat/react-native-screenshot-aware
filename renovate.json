@@ -3,6 +3,9 @@
   "extends": ["config:recommended"],
   "enabledManagers": ["npm", "github-actions"],
   "ignoreDeps": [
+    "react",
+    "@types/react-test-renderer",
+    "react-test-renderer",
     "@react-native-community/cli",
     "@react-native-community/cli-platform-android",
     "@react-native-community/cli-platform-ios"
