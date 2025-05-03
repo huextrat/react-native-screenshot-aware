@@ -7100,7 +7100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-string-regexp@npm:5.0.0":
+"escape-string-regexp@npm:5.0.0, escape-string-regexp@npm:^5.0.0":
   version: 5.0.0
   resolution: "escape-string-regexp@npm:5.0.0"
   checksum: 10/20daabe197f3cb198ec28546deebcf24b3dbb1a5a269184381b3116d12f0532e06007f4bc8da25669d6a7f8efb68db0758df4cd981f57bc5b57f521a3e12c59e
@@ -7419,7 +7419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.5":
+"fast-glob@npm:^3.2.5, fast-glob@npm:^3.3.3":
   version: 3.3.3
   resolution: "fast-glob@npm:3.3.3"
   dependencies:
@@ -12621,9 +12621,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:0.40.7":
-  version: 0.40.7
-  resolution: "react-native-builder-bob@npm:0.40.7"
+"react-native-builder-bob@npm:0.40.8":
+  version: 0.40.8
+  resolution: "react-native-builder-bob@npm:0.40.8"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-transform-flow-strip-types": "npm:^7.26.5"
@@ -12645,11 +12645,22 @@ __metadata:
     kleur: "npm:^4.1.4"
     metro-config: "npm:^0.80.9"
     prompts: "npm:^2.4.2"
+    react-native-monorepo-config: "npm:^0.1.7"
     which: "npm:^2.0.2"
     yargs: "npm:^17.5.1"
   bin:
     bob: bin/bob
-  checksum: 10/06e7c72cb49b81b01d3906628b21716a300acea2895d61b35ab544ab755408ecce03b044e9c75447458f06d1b632673f2db2d4359c255062714ea927cb21a041
+  checksum: 10/b0ec4cf8b898641ee9f73b31f0cb70ba7c0079c8d7021002362b061064b5b5640fac07d79f81d6a8f97be8ff5efc5d7ec94066a5c860e93379a4634cb34736f1
+  languageName: node
+  linkType: hard
+
+"react-native-monorepo-config@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "react-native-monorepo-config@npm:0.1.7"
+  dependencies:
+    escape-string-regexp: "npm:^5.0.0"
+    fast-glob: "npm:^3.3.3"
+  checksum: 10/828b8132c0121f23993b34a4a979971b80061ff8810ff1275fc26e76a264d44bad14d219990013a0f4b705ac8e64a270549fbd906bfd4217d468f6aa08ec7712
   languageName: node
   linkType: hard
 
@@ -12668,7 +12679,7 @@ __metadata:
     "@react-native/typescript-config": "npm:0.79.2"
     react: "npm:19.0.0"
     react-native: "npm:0.78.2"
-    react-native-builder-bob: "npm:0.40.7"
+    react-native-builder-bob: "npm:0.40.8"
   languageName: unknown
   linkType: soft
 
@@ -12693,7 +12704,7 @@ __metadata:
     jest: "npm:29.7.0"
     react: "npm:19.0.0"
     react-native: "npm:0.78.2"
-    react-native-builder-bob: "npm:0.40.7"
+    react-native-builder-bob: "npm:0.40.8"
     react-test-renderer: "npm:19.0.0"
     semantic-release: "npm:24.2.3"
     turbo: "npm:2.5.2"
