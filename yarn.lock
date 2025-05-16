@@ -10266,12 +10266,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^12.0.0":
-  version: 12.0.2
-  resolution: "marked@npm:12.0.2"
+"marked@npm:^15.0.0":
+  version: 15.0.11
+  resolution: "marked@npm:15.0.11"
   bin:
     marked: bin/marked.js
-  checksum: 10/24d4fc58d37c1779197fa7f93c504d8c71d4df54eb69cbbc14a55ba2a8e2ad83d723801fc25452c21ce74b38a483c5863c53449f130253a597be9e9c1d3e7e2b
+  checksum: 10/939e75f3e989ef4d72d6da9c7e80e43d49ffdc7af8ae2a38cc8c73f20a629d9659a0acda1d0cb5a5f90876cbfb1520d029f98790a934b46592dfa178fbd2838c
   languageName: node
   linkType: hard
 
@@ -12715,7 +12715,7 @@ __metadata:
     react-native: "npm:0.78.2"
     react-native-builder-bob: "npm:0.40.11"
     react-test-renderer: "npm:19.0.0"
-    semantic-release: "npm:24.2.3"
+    semantic-release: "npm:24.2.4"
     turbo: "npm:2.5.3"
     typescript: "npm:5.8.3"
   peerDependencies:
@@ -13298,9 +13298,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:24.2.3":
-  version: 24.2.3
-  resolution: "semantic-release@npm:24.2.3"
+"semantic-release@npm:24.2.4":
+  version: 24.2.4
+  resolution: "semantic-release@npm:24.2.4"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^13.0.0-beta.1"
     "@semantic-release/error": "npm:^4.0.0"
@@ -13320,7 +13320,7 @@ __metadata:
     hosted-git-info: "npm:^8.0.0"
     import-from-esm: "npm:^2.0.0"
     lodash-es: "npm:^4.17.21"
-    marked: "npm:^12.0.0"
+    marked: "npm:^15.0.0"
     marked-terminal: "npm:^7.0.0"
     micromatch: "npm:^4.0.2"
     p-each-series: "npm:^3.0.0"
@@ -13333,7 +13333,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 10/a9d64855e82f636fb3e9199e58b631f3af6de9cd43c7fa4ed637065958009136b8f838856abe5d7212880f80e42fd2a646a799035d9c9ed04c8dc342f63ee11e
+  checksum: 10/c6ac7e16d9a8f58648a25fa6261139433081f176c2e5fb4495093110351b9e646c25194d50f40cad26d02568301dec5f3e87a7741b94b7d63254db90e1a32277
   languageName: node
   linkType: hard
 
