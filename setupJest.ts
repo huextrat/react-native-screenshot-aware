@@ -1,7 +1,11 @@
-jest.mock("react-native/Libraries/BatchedBridge/NativeModules", () => ({
-  ScreenshotAware: {
-    addListener: jest.fn(),
-    removeListeners: jest.fn(),
-  },
-  PlatformConstants: {},
+jest.mock("react-native/Libraries/TurboModule/TurboModuleRegistry", () => ({
+  getEnforcing: jest.fn((moduleName: string) => {
+    if (moduleName === "ScreenshotAware") {
+      return {
+        addListener: jest.fn(),
+        removeListeners: jest.fn(),
+      };
+    }
+    return {};
+  }),
 }));
