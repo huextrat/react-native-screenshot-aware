@@ -3346,29 +3346,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/metro-babel-transformer@npm:0.79.3":
-  version: 0.79.3
-  resolution: "@react-native/metro-babel-transformer@npm:0.79.3"
-  dependencies:
-    "@babel/core": "npm:^7.25.2"
-    "@react-native/babel-preset": "npm:0.79.3"
-    hermes-parser: "npm:0.25.1"
-    nullthrows: "npm:^1.1.1"
-  peerDependencies:
-    "@babel/core": "*"
-  checksum: 10/42505905e6d161ceb286c785b9349debac4b1c60d89d21e7bcc4c876aad0772f5cbde73ad07a6b224afb64b6165361feb24ba613fb015b8231ded9cb4e4bccf7
+"@react-native/js-polyfills@npm:0.80.0":
+  version: 0.80.0
+  resolution: "@react-native/js-polyfills@npm:0.80.0"
+  checksum: 10/a1db21e65ddb2b24d499ba60abb20446ba05b5a811389adf10d7a04dd11ffd7f352050c723359f7331ec877ab5b7be64f4b19c25a249ec56cbd3b3720df29748
   languageName: node
   linkType: hard
 
-"@react-native/metro-config@npm:0.79.3":
-  version: 0.79.3
-  resolution: "@react-native/metro-config@npm:0.79.3"
+"@react-native/metro-babel-transformer@npm:0.80.0":
+  version: 0.80.0
+  resolution: "@react-native/metro-babel-transformer@npm:0.80.0"
   dependencies:
-    "@react-native/js-polyfills": "npm:0.79.3"
-    "@react-native/metro-babel-transformer": "npm:0.79.3"
-    metro-config: "npm:^0.82.0"
-    metro-runtime: "npm:^0.82.0"
-  checksum: 10/76feddea598998e1e3618fa62a05ee614b1d886f6552a05d040eee81f05d5c99a8f12364f2db7f6ef38967c2459ccb6dc112b4e5f84921137e6fc7167e6b5277
+    "@babel/core": "npm:^7.25.2"
+    "@react-native/babel-preset": "npm:0.80.0"
+    hermes-parser: "npm:0.28.1"
+    nullthrows: "npm:^1.1.1"
+  peerDependencies:
+    "@babel/core": "*"
+  checksum: 10/5019ab3cfa91710b1a4004e8a7a9ed2c13e131306c6c9ff41649827e165bc9f79cc6a4380d03b6999dfe12b652e2ab47d8993168b0d79a508cc86946da808d63
+  languageName: node
+  linkType: hard
+
+"@react-native/metro-config@npm:0.80.0":
+  version: 0.80.0
+  resolution: "@react-native/metro-config@npm:0.80.0"
+  dependencies:
+    "@react-native/js-polyfills": "npm:0.80.0"
+    "@react-native/metro-babel-transformer": "npm:0.80.0"
+    metro-config: "npm:^0.82.2"
+    metro-runtime: "npm:^0.82.2"
+  checksum: 10/faf4850d63e64b5d3fa7aac176e9e0d19b17a244ba56eb6b628eccff9e9e26d72ec3ab0957c58c32d9655972c7058f2df84a476d3e1c92d6d5b718c6d636ac9f
   languageName: node
   linkType: hard
 
@@ -8686,7 +8693,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-config@npm:0.82.4, metro-config@npm:^0.82.0":
+"metro-config@npm:0.82.4, metro-config@npm:^0.82.0, metro-config@npm:^0.82.2":
   version: 0.82.4
   resolution: "metro-config@npm:0.82.4"
   dependencies:
@@ -8749,7 +8756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-runtime@npm:0.82.4, metro-runtime@npm:^0.82.0":
+"metro-runtime@npm:0.82.4, metro-runtime@npm:^0.82.0, metro-runtime@npm:^0.82.2":
   version: 0.82.4
   resolution: "metro-runtime@npm:0.82.4"
   dependencies:
@@ -10483,7 +10490,7 @@ __metadata:
     "@react-native-community/cli-platform-android": "npm:18.0.0"
     "@react-native-community/cli-platform-ios": "npm:18.0.0"
     "@react-native/babel-preset": "npm:0.80.0"
-    "@react-native/metro-config": "npm:0.79.3"
+    "@react-native/metro-config": "npm:0.80.0"
     "@react-native/typescript-config": "npm:0.79.3"
     react: "npm:19.0.0"
     react-native: "npm:0.79.3"
