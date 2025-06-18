@@ -1,8 +1,7 @@
 import { renderHook } from "@testing-library/react-native";
 import { NativeEventEmitter } from "react-native";
 import NativeScreenshotAware from "../codegenSpec/NativeScreenshotAware";
-import { useScreenshotAware } from "../index";
-import ScreenshotAware from "../index";
+import ScreenshotAware, { useScreenshotAware } from "../index";
 
 describe("ScreenshotAware", () => {
   afterEach(() => {
