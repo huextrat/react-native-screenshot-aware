@@ -74,7 +74,7 @@
     "del-cli": "6.0.0",
     "expo": "53.0.12",
     "husky": "9.1.7",
-    "jest": "30.0.2",
+    "jest": "30.0.3",
     "react": "19.0.0",
     "react-native": "0.80.0",
     "react-native-builder-bob": "0.40.12",
