@@ -1836,18 +1836,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/biome@npm:2.1.0"
+"@biomejs/biome@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/biome@npm:2.1.1"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.1.0"
-    "@biomejs/cli-darwin-x64": "npm:2.1.0"
-    "@biomejs/cli-linux-arm64": "npm:2.1.0"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.1.0"
-    "@biomejs/cli-linux-x64": "npm:2.1.0"
-    "@biomejs/cli-linux-x64-musl": "npm:2.1.0"
-    "@biomejs/cli-win32-arm64": "npm:2.1.0"
-    "@biomejs/cli-win32-x64": "npm:2.1.0"
+    "@biomejs/cli-darwin-arm64": "npm:2.1.1"
+    "@biomejs/cli-darwin-x64": "npm:2.1.1"
+    "@biomejs/cli-linux-arm64": "npm:2.1.1"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.1.1"
+    "@biomejs/cli-linux-x64": "npm:2.1.1"
+    "@biomejs/cli-linux-x64-musl": "npm:2.1.1"
+    "@biomejs/cli-win32-arm64": "npm:2.1.1"
+    "@biomejs/cli-win32-x64": "npm:2.1.1"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -1867,62 +1867,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10/b1ed328e829ca5d69d8d47d86401e74b7beb2c6739539e7e376d5f6f27d215fda83b3be927643ae952ca7296bd99403f029eddea18a84801aaa4559b9ff828f2
+  checksum: 10/f114f220d388b76c2c28f56e7477df6545e65c009af0d279d63ca30efa7eca1ffb67bb8ce8305b8d25dfb7176b8f1b71e650c34ef8bb09c805c7f9c36166b3a7
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.1.0"
+"@biomejs/cli-darwin-arm64@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.1.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-darwin-x64@npm:2.1.0"
+"@biomejs/cli-darwin-x64@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-darwin-x64@npm:2.1.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.1.0"
+"@biomejs/cli-linux-arm64-musl@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.1.1"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-linux-arm64@npm:2.1.0"
+"@biomejs/cli-linux-arm64@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-linux-arm64@npm:2.1.1"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.1.0"
+"@biomejs/cli-linux-x64-musl@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.1.1"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-linux-x64@npm:2.1.0"
+"@biomejs/cli-linux-x64@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-linux-x64@npm:2.1.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-win32-arm64@npm:2.1.0"
+"@biomejs/cli-win32-arm64@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-win32-arm64@npm:2.1.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@biomejs/cli-win32-x64@npm:2.1.0"
+"@biomejs/cli-win32-x64@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@biomejs/cli-win32-x64@npm:2.1.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -11572,7 +11572,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-native-screenshot-aware@workspace:."
   dependencies:
-    "@biomejs/biome": "npm:2.1.0"
+    "@biomejs/biome": "npm:2.1.1"
     "@commitlint/cli": "npm:19.8.1"
     "@commitlint/config-conventional": "npm:19.8.1"
     "@react-native-community/cli": "npm:18.0.0"
