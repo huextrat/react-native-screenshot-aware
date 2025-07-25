@@ -76,7 +76,7 @@
     "husky": "9.1.7",
     "jest": "30.0.5",
     "react": "19.0.0",
-    "react-native": "0.80.1",
+    "react-native": "0.80.2",
     "react-native-builder-bob": "0.40.13",
     "react-test-renderer": "19.0.0",
     "semantic-release": "24.2.7",
