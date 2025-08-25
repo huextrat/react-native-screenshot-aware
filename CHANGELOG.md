@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.7](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.6...v1.3.7) (2025-08-25)
+
+
+### Bug Fixes
+
+* android build ([8b1610c](https://github.com/huextrat/react-native-screenshot-aware/commit/8b1610c9e4ee6175cc8645b268de1a5de50a387b))
+
 ## [1.3.6](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.5...v1.3.6) (2025-08-12)
 
 
