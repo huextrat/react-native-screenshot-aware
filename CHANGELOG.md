@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.8](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.7...v1.3.8) (2025-08-25)
+
+
+### Bug Fixes
+
+* builder codegen config ([2e22286](https://github.com/huextrat/react-native-screenshot-aware/commit/2e222862e6dec1ef25076417f4e6268710361dff))
+
 ## [1.3.7](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.6...v1.3.7) (2025-08-25)
 
 
