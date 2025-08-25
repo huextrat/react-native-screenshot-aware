@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.9](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.8...v1.3.9) (2025-08-25)
+
+
+### Bug Fixes
+
+* remove config ([e43787c](https://github.com/huextrat/react-native-screenshot-aware/commit/e43787c7403c392cc4c6dc9d5c2bee84f3f615f1))
+
 ## [1.3.8](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.7...v1.3.8) (2025-08-25)
 
 
