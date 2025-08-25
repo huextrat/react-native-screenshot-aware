@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.10](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.9...v1.3.10) (2025-08-25)
+
+
+### Bug Fixes
+
+* **minor:** fix ios new arch ([94576f0](https://github.com/huextrat/react-native-screenshot-aware/commit/94576f0da1d0c11f4050e122741a2b31efdc2e5d))
+
 ## [1.3.9](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.8...v1.3.9) (2025-08-25)
 
 
