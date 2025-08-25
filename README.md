@@ -24,6 +24,7 @@
 
 - React Native <0.76, use version 1.2.2 or below 1.2.0 of this package (1.2.1 is buggy)
 - React Native >=0.76, use version 1.3.0 or later
+- React Native >=0.79, use version 1.3.10 or later
 
 ## Installation
 
