@@ -22,7 +22,7 @@
     "@react-native-community/cli-platform-ios": "18.0.0",
     "@react-native/babel-preset": "0.81.1",
     "@react-native/metro-config": "0.81.0",
-    "@react-native/typescript-config": "0.81.0",
+    "@react-native/typescript-config": "0.81.1",
     "react-native-builder-bob": "0.40.13"
   },
   "engines": {
