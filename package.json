@@ -78,7 +78,7 @@
     "react-native": "0.81.1",
     "react-native-builder-bob": "0.40.13",
     "react-test-renderer": "19.0.0",
-    "semantic-release": "24.2.7",
+    "semantic-release": "24.2.8",
     "turbo": "2.5.6",
     "typescript": "5.9.2"
   },
