@@ -18,7 +18,7 @@
     "@babel/preset-env": "7.28.5",
     "@babel/runtime": "7.28.4",
     "@react-native-community/cli": "18.0.1",
-    "@react-native-community/cli-platform-android": "18.0.0",
+    "@react-native-community/cli-platform-android": "18.0.1",
     "@react-native-community/cli-platform-ios": "18.0.0",
     "@react-native/babel-preset": "0.82.1",
     "@react-native/metro-config": "0.82.1",
