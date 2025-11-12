@@ -76,7 +76,7 @@
     "jest": "30.2.0",
     "react": "19.0.0",
     "react-native": "0.82.1",
-    "react-native-builder-bob": "0.40.14",
+    "react-native-builder-bob": "0.40.15",
     "react-test-renderer": "19.0.0",
     "semantic-release": "24.2.9",
     "turbo": "2.6.1",
