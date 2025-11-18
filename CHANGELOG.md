@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.15](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.14...v1.3.15) (2025-11-18)
+
+
+### Bug Fixes
+
+* add prettier to fix test ([ed6b132](https://github.com/huextrat/react-native-screenshot-aware/commit/ed6b1329e39bc4863bd1870a8363410cf7d3dd71))
+
 ## [1.3.14](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.13...v1.3.14) (2025-10-21)
 
 
