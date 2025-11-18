@@ -6872,16 +6872,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"del-cli@npm:6.0.0":
-  version: 6.0.0
-  resolution: "del-cli@npm:6.0.0"
+"del-cli@npm:7.0.0":
+  version: 7.0.0
+  resolution: "del-cli@npm:7.0.0"
   dependencies:
-    del: "npm:^8.0.0"
-    meow: "npm:^13.2.0"
+    del: "npm:^8.0.1"
+    meow: "npm:^14.0.0"
+    presentable-error: "npm:^0.0.1"
   bin:
     del: cli.js
     del-cli: cli.js
-  checksum: 10/5441e55c9181f364e84a1d211e53a03476a806e795f6b7d576673f164a9f76e0dc846413a47730f6224913974ba54dabb1884f854a9cf4d418084872bdaaa229
+  checksum: 10/ecd0642d3da8a7de56173936300a991eacb4e5225f6f73dfafae58e8e014214364bc01eb8e10c92dba3d787a10e6d60980da825ea502998c1df76e8651727cd0
   languageName: node
   linkType: hard
 
@@ -6901,17 +6902,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"del@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "del@npm:8.0.0"
+"del@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "del@npm:8.0.1"
   dependencies:
     globby: "npm:^14.0.2"
     is-glob: "npm:^4.0.3"
     is-path-cwd: "npm:^3.0.0"
     is-path-inside: "npm:^4.0.0"
     p-map: "npm:^7.0.2"
+    presentable-error: "npm:^0.0.1"
     slash: "npm:^5.1.0"
-  checksum: 10/502dea7a846f989e1d921733f5d41ae4ae9b3eff168d335bfc050c9ce938ddc46198180be133814269268c4b0aed441a82fbace948c0ec5eed4ed086a4ad3b0e
+  checksum: 10/53ed4a379a68c90e7d6d3bcce09c49229e77de9a946d0a5fc25f45b16c950cb8665986b7d0d0423416c03bfd43e0f31e528c5a19c558fe47449be9d6fae7f846
   languageName: node
   linkType: hard
 
@@ -10481,10 +10483,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"meow@npm:^13.0.0, meow@npm:^13.2.0":
+"meow@npm:^13.0.0":
   version: 13.2.0
   resolution: "meow@npm:13.2.0"
   checksum: 10/4eff5bc921fed0b8a471ad79069d741a0210036d717547d0c7f36fdaf84ef7a3036225f38b6a53830d84dc9cbf8b944b097fde62381b8b5b215119e735ce1063
+  languageName: node
+  linkType: hard
+
+"meow@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "meow@npm:14.0.0"
+  checksum: 10/133e45ba802ac4d50a35f730a84631b8a98e15babf98abadb34768eb8a04e9336e39c92318137f16a99ada3984b5bcc29a4d5f811d9a22f1327fc056875d8e52
   languageName: node
   linkType: hard
 
@@ -12337,6 +12346,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"presentable-error@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "presentable-error@npm:0.0.1"
+  checksum: 10/013809ee7a47ced847a8d860e9b89a56cdd8c4f1ad04ad8da1e58fd60843f77f497d204146bb15aaa9793d3b94ad8626eed01256fc9eb5839a545af2000a5fa4
+  languageName: node
+  linkType: hard
+
 "prettier@npm:^3.6.2":
   version: 3.6.2
   resolution: "prettier@npm:3.6.2"
@@ -12706,7 +12722,7 @@ __metadata:
     "@types/jest": "npm:30.0.0"
     "@types/react": "npm:19.0.10"
     commitlint: "npm:20.1.0"
-    del-cli: "npm:6.0.0"
+    del-cli: "npm:7.0.0"
     expo: "npm:54.0.24"
     husky: "npm:9.1.7"
     jest: "npm:30.2.0"
