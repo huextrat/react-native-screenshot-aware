@@ -7214,9 +7214,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:53.0.23":
-  version: 53.0.23
-  resolution: "expo@npm:53.0.23"
+"expo@npm:53.0.24":
+  version: 53.0.24
+  resolution: "expo@npm:53.0.24"
   dependencies:
     "@babel/runtime": "npm:^7.20.0"
     "@expo/cli": "npm:0.24.22"
@@ -7252,7 +7252,7 @@ __metadata:
     expo: bin/cli
     expo-modules-autolinking: bin/autolinking
     fingerprint: bin/fingerprint
-  checksum: 10/7382f1895119304ce610e8f145adbb4a4b298043dec74308be3af2979d6d08c882185752937c7c3fce19aef982d1a67d3736858c47c977abca90566dabd6d188
+  checksum: 10/653659ee5d66e9d67cce20514617a55fa19bc0f75026492871699eabe399b0c007d424a9aa24c66ca47ffaf5aad091648ee7aa4c19b29800db89402ab9e2f0cd
   languageName: node
   linkType: hard
 
@@ -12052,7 +12052,7 @@ __metadata:
     "@types/react": "npm:19.0.10"
     commitlint: "npm:19.8.1"
     del-cli: "npm:6.0.0"
-    expo: "npm:53.0.23"
+    expo: "npm:53.0.24"
     husky: "npm:9.1.7"
     jest: "npm:30.2.0"
     prettier: "npm:^3.6.2"
