@@ -7377,13 +7377,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-file-system@npm:~19.0.18":
-  version: 19.0.18
-  resolution: "expo-file-system@npm:19.0.18"
+"expo-file-system@npm:~19.0.19":
+  version: 19.0.19
+  resolution: "expo-file-system@npm:19.0.19"
   peerDependencies:
     expo: "*"
     react-native: "*"
-  checksum: 10/26aa14054d0e9595bd6e659ea03bb61f86c27a889b34c3423ccddc131740c18e99cba3fc7a4a819f5c34c304630f1bc2146bc554ba99ea00b317b60864138130
+  checksum: 10/14e9cdd3b03ad60ec071c63f663772e5318d3ad6220b21870ca65709949bc783e497caf30e8298b14cc5843c4cdba2f3d6db9e1f31454a8bf14c3b3314ebada2
   languageName: node
   linkType: hard
 
@@ -7444,9 +7444,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:54.0.24":
-  version: 54.0.24
-  resolution: "expo@npm:54.0.24"
+"expo@npm:54.0.25":
+  version: 54.0.25
+  resolution: "expo@npm:54.0.25"
   dependencies:
     "@babel/runtime": "npm:^7.20.0"
     "@expo/cli": "npm:54.0.16"
@@ -7461,7 +7461,7 @@ __metadata:
     babel-preset-expo: "npm:~54.0.7"
     expo-asset: "npm:~12.0.10"
     expo-constants: "npm:~18.0.10"
-    expo-file-system: "npm:~19.0.18"
+    expo-file-system: "npm:~19.0.19"
     expo-font: "npm:~14.0.9"
     expo-keep-awake: "npm:~15.0.7"
     expo-modules-autolinking: "npm:3.0.22"
@@ -7486,7 +7486,7 @@ __metadata:
     expo: bin/cli
     expo-modules-autolinking: bin/autolinking
     fingerprint: bin/fingerprint
-  checksum: 10/c2087cd019a227fd9ba94b91301c3ddfaff8cd7c064351656c86249e64bb1254f2c6da63b313286bf4d497769736f3d8ed4e09e185aa13bbf8de6ed887ca1549
+  checksum: 10/083bc337173c1ec0827f5a81e37a710d5d41849b57a1785cc984b25b790ffa27cf3d4fdc4ac2d94c44661244a1b1fb8f665281c30eb589ddabd4413f636ddf8c
   languageName: node
   linkType: hard
 
@@ -12671,7 +12671,7 @@ __metadata:
     "@types/react": "npm:19.0.10"
     commitlint: "npm:20.1.0"
     del-cli: "npm:7.0.0"
-    expo: "npm:54.0.24"
+    expo: "npm:54.0.25"
     husky: "npm:9.1.7"
     jest: "npm:30.2.0"
     prettier: "npm:^3.6.2"
