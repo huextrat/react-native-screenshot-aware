@@ -12616,9 +12616,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:0.40.16":
-  version: 0.40.16
-  resolution: "react-native-builder-bob@npm:0.40.16"
+"react-native-builder-bob@npm:0.40.17":
+  version: 0.40.17
+  resolution: "react-native-builder-bob@npm:0.40.17"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-transform-flow-strip-types": "npm:^7.26.5"
@@ -12639,22 +12639,22 @@ __metadata:
     json5: "npm:^2.2.1"
     kleur: "npm:^4.1.4"
     prompts: "npm:^2.4.2"
-    react-native-monorepo-config: "npm:^0.1.8"
+    react-native-monorepo-config: "npm:^0.3.1"
     which: "npm:^2.0.2"
     yargs: "npm:^17.5.1"
   bin:
     bob: bin/bob
-  checksum: 10/7f9c6e02131a833d68df92e6338f86e2880c7404116c5104c7eaa1cb8517ed559f2de591306b6d67e0af39f4f4fef9894b69b3fd624dce35822fb7d4b752776b
+  checksum: 10/80dd815dd870a5344c535e637576b9a487152f65a7908492f59a3a4a05db0f80e32bbb665322ff2588adda9c3c034e0092b13adc4d29083468431758869d9c4b
   languageName: node
   linkType: hard
 
-"react-native-monorepo-config@npm:^0.1.8":
-  version: 0.1.9
-  resolution: "react-native-monorepo-config@npm:0.1.9"
+"react-native-monorepo-config@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "react-native-monorepo-config@npm:0.3.1"
   dependencies:
     escape-string-regexp: "npm:^5.0.0"
     fast-glob: "npm:^3.3.3"
-  checksum: 10/c92d339ab592488996f77a49cc97d0ab8b1d528fb2d15001c255aa03eea48e013175cdaaddc2bb8b1ebdee620448bcf1901410996aaaf4a5fea470a2e354b0c2
+  checksum: 10/5a3b52f17a9eff8e3f7528693ff140a67ead91025f63af349ab736841496bef8f45884f1cc41996e8bc40f2a3560dbf97aa3f51b6db62293a9ac43d982b7fdac
   languageName: node
   linkType: hard
 
@@ -12673,7 +12673,7 @@ __metadata:
     "@react-native/typescript-config": "npm:0.82.1"
     react: "npm:19.0.0"
     react-native: "npm:0.82.1"
-    react-native-builder-bob: "npm:0.40.16"
+    react-native-builder-bob: "npm:0.40.17"
   languageName: unknown
   linkType: soft
 
@@ -12698,7 +12698,7 @@ __metadata:
     prettier: "npm:^3.6.2"
     react: "npm:19.0.0"
     react-native: "npm:0.82.1"
-    react-native-builder-bob: "npm:0.40.16"
+    react-native-builder-bob: "npm:0.40.17"
     react-test-renderer: "npm:19.0.0"
     semantic-release: "npm:25.0.2"
     turbo: "npm:2.6.3"
