@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.17](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.16...v1.3.17) (2025-12-15)
+
+
+### Bug Fixes
+
+* npm ci ([76bd15c](https://github.com/huextrat/react-native-screenshot-aware/commit/76bd15c2f4dc866a6ecf89babbe5b8a3b986df25))
+
 ## [1.3.16](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.15...v1.3.16) (2025-12-15)
 
 
