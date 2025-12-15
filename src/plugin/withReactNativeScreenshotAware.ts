@@ -1,5 +1,4 @@
-import { withAndroidManifest } from "@expo/config-plugins";
-import type { ConfigPlugin } from "expo/config-plugins";
+import { type ConfigPlugin, withAndroidManifest } from "@expo/config-plugins";
 
 /**
  * Modifies the `AndroidManifest.xml` file to add `DETECT_SCREEN_CAPTURE` permission,
