@@ -2261,30 +2261,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:20.2.0, @commitlint/cli@npm:^20.2.0":
-  version: 20.2.0
-  resolution: "@commitlint/cli@npm:20.2.0"
+"@commitlint/cli@npm:20.3.0, @commitlint/cli@npm:^20.3.0":
+  version: 20.3.0
+  resolution: "@commitlint/cli@npm:20.3.0"
   dependencies:
     "@commitlint/format": "npm:^20.2.0"
-    "@commitlint/lint": "npm:^20.2.0"
-    "@commitlint/load": "npm:^20.2.0"
+    "@commitlint/lint": "npm:^20.3.0"
+    "@commitlint/load": "npm:^20.3.0"
     "@commitlint/read": "npm:^20.2.0"
     "@commitlint/types": "npm:^20.2.0"
     tinyexec: "npm:^1.0.0"
     yargs: "npm:^17.0.0"
   bin:
     commitlint: ./cli.js
-  checksum: 10/3892ff04ffc60c63fd53546e97d6fb3aa19cbcc60149ff9dce631814064ac002e656da23577d9510adaddf5da9c07259366b6a6a549a0959731491eb76c5d5bd
+  checksum: 10/92d7d3c0f27c9af8ebd3ca18c405b4381d6810cb02fb381aa7af23426f62404e66be4067313f2034278ac0739d8ce3809d14ee1dbf097dbaa58b8605b414ce41
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:20.2.0":
-  version: 20.2.0
-  resolution: "@commitlint/config-conventional@npm:20.2.0"
+"@commitlint/config-conventional@npm:20.3.0":
+  version: 20.3.0
+  resolution: "@commitlint/config-conventional@npm:20.3.0"
   dependencies:
     "@commitlint/types": "npm:^20.2.0"
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
-  checksum: 10/e9290c90c0e2b56ece25d45df1477746355ff540204d6acd9ef6c514e8e52aecde730667bb638b793f93e7e3c5d1fc395e3ea15047918cad48d834eb773956d5
+  checksum: 10/410fe56bbe553a591e6a30dad018c992e9a2d5c1851666cd323d26dc3b1a96f15b6350c71cd3c3095653408109cdcaae8cd76eaf69868896cef9e0ea532e0464
   languageName: node
   linkType: hard
 
@@ -2339,21 +2339,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^20.2.0":
-  version: 20.2.0
-  resolution: "@commitlint/lint@npm:20.2.0"
+"@commitlint/lint@npm:^20.3.0":
+  version: 20.3.0
+  resolution: "@commitlint/lint@npm:20.3.0"
   dependencies:
     "@commitlint/is-ignored": "npm:^20.2.0"
     "@commitlint/parse": "npm:^20.2.0"
-    "@commitlint/rules": "npm:^20.2.0"
+    "@commitlint/rules": "npm:^20.3.0"
     "@commitlint/types": "npm:^20.2.0"
-  checksum: 10/35844454c0c2b04e4f5ee10f099bb34100027a5db2009fe2ac12997001f8bef371d7479cd41b1ac8e422395762c47dc60676e976b44be4d5b8f24c09b6adc2f1
+  checksum: 10/e51f55cd7fdc19fcbd61d481d98e0bb11ef4f2c152fe01ddc6e11bef88e06db9bbddeb4fe5aad86540879426bbc515ca2f82bf910bfcf87a4bef247b9758a50b
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^20.2.0":
-  version: 20.2.0
-  resolution: "@commitlint/load@npm:20.2.0"
+"@commitlint/load@npm:^20.3.0":
+  version: 20.3.0
+  resolution: "@commitlint/load@npm:20.3.0"
   dependencies:
     "@commitlint/config-validator": "npm:^20.2.0"
     "@commitlint/execute-rule": "npm:^20.0.0"
@@ -2365,7 +2365,7 @@ __metadata:
     lodash.isplainobject: "npm:^4.0.6"
     lodash.merge: "npm:^4.6.2"
     lodash.uniq: "npm:^4.5.0"
-  checksum: 10/90285577381d593fbd2ee7fb825234f828378205374d26186577500bd160919efa01b1e584ad44190e57da9c151238063b8c896356bf9a7074e4a85a5a3e19b5
+  checksum: 10/d55989ecc080f44c5113acd0a9a2f29c656262ddaf747212d9c3aa0b96bba2a96ac6b65d3623238eebf0043636cb5a6e09f528362a17753ff48938b400db543b
   languageName: node
   linkType: hard
 
@@ -2414,15 +2414,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^20.2.0":
-  version: 20.2.0
-  resolution: "@commitlint/rules@npm:20.2.0"
+"@commitlint/rules@npm:^20.3.0":
+  version: 20.3.0
+  resolution: "@commitlint/rules@npm:20.3.0"
   dependencies:
     "@commitlint/ensure": "npm:^20.2.0"
     "@commitlint/message": "npm:^20.0.0"
     "@commitlint/to-lines": "npm:^20.0.0"
     "@commitlint/types": "npm:^20.2.0"
-  checksum: 10/f5cda11de06a5cbacceebb0628a4a45b01e2d3af483e1e95cc04aa7ec1a1198cfdcd8587c29afdc9dc915df8a849864e989347c6304f81b50fdb0c98e47ab49f
+  checksum: 10/20e3c94cb9b906d91d74488e957a7a00eaa0308a6d1e6d294fb31c88bfbfe518902670473a615ee56782b69d47c50d46ac537576329ffc40ddbc255012c7a349
   languageName: node
   linkType: hard
 
@@ -6464,15 +6464,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commitlint@npm:20.2.0":
-  version: 20.2.0
-  resolution: "commitlint@npm:20.2.0"
+"commitlint@npm:20.3.0":
+  version: 20.3.0
+  resolution: "commitlint@npm:20.3.0"
   dependencies:
-    "@commitlint/cli": "npm:^20.2.0"
+    "@commitlint/cli": "npm:^20.3.0"
     "@commitlint/types": "npm:^20.2.0"
   bin:
     commitlint: cli.js
-  checksum: 10/e442d15aa10bb57d9b365fa2401eeab95122a14fce54af8f3d016cecc9bcbbc7b3af2173230ac2be90ea27a887fda73c15b4f8d593a34a3ac0ca400b5e8357fe
+  checksum: 10/f5d72d73cb50019a3a4098d8697bf088ce87a44f0d7cb8a7805fb93051d58d01301949ac6c48d3bc79aa3c2fd543a981d1b986b7247254d0bd8eda98c2852b8f
   languageName: node
   linkType: hard
 
@@ -12433,15 +12433,15 @@ __metadata:
   resolution: "react-native-screenshot-aware@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.3.10"
-    "@commitlint/cli": "npm:20.2.0"
-    "@commitlint/config-conventional": "npm:20.2.0"
+    "@commitlint/cli": "npm:20.3.0"
+    "@commitlint/config-conventional": "npm:20.3.0"
     "@react-native-community/cli": "npm:20.0.2"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@testing-library/react-native": "npm:13.3.3"
     "@types/jest": "npm:30.0.0"
     "@types/react": "npm:19.0.10"
-    commitlint: "npm:20.2.0"
+    commitlint: "npm:20.3.0"
     del-cli: "npm:7.0.0"
     expo: "npm:54.0.30"
     husky: "npm:9.1.7"
