@@ -60,7 +60,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.10",
+    "@biomejs/biome": "2.3.11",
     "@commitlint/cli": "20.3.0",
     "@commitlint/config-conventional": "20.3.0",
     "@react-native-community/cli": "20.0.2",
