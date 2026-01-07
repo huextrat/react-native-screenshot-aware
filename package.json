@@ -63,7 +63,7 @@
     "@biomejs/biome": "2.3.11",
     "@commitlint/cli": "20.3.0",
     "@commitlint/config-conventional": "20.3.0",
-    "@react-native-community/cli": "20.0.2",
+    "@react-native-community/cli": "20.1.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@testing-library/react-native": "13.3.3",
