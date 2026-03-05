@@ -71,7 +71,7 @@
     "@types/react": "19.2.14",
     "commitlint": "20.4.3",
     "del-cli": "7.0.0",
-    "expo": "55.0.4",
+    "expo": "55.0.5",
     "husky": "9.1.7",
     "jest": "30.2.0",
     "prettier": "^3.6.2",
