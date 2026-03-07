@@ -5,17 +5,11 @@ import android.os.Build
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.modules.core.DeviceEventManagerModule
-import com.facebook.react.module.annotations.ReactModule
 
-@ReactModule(name = ScreenshotAwareModule.NAME)
-class ScreenshotAwareModule internal constructor(reactContext: ReactApplicationContext) :
-  ScreenshotAwareSpec(reactContext) {
+class ScreenshotAwareModule(reactContext: ReactApplicationContext) :
+  NativeScreenshotAwareSpec(reactContext) {
 
   private var screenCaptureCallback: Any? = null
-
-  override fun getName(): String {
-    return NAME
-  }
 
   override fun initialize() {
     super.initialize()
@@ -63,7 +57,7 @@ class ScreenshotAwareModule internal constructor(reactContext: ReactApplicationC
   }
 
   companion object {
-    const val NAME = "ScreenshotAware"
+    const val NAME = NativeScreenshotAwareSpec.NAME
     const val EVENT_NAME: String = "ScreenshotAwareEvent"
   }
 }

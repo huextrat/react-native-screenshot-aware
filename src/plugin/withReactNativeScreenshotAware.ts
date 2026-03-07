@@ -1,4 +1,5 @@
-import { type ConfigPlugin, withAndroidManifest } from "@expo/config-plugins";
+import configPlugins, { type ConfigPlugin } from '@expo/config-plugins';
+const { withAndroidManifest } = configPlugins;
 
 /**
  * Modifies the `AndroidManifest.xml` file to add `DETECT_SCREEN_CAPTURE` permission,
@@ -11,22 +12,22 @@ const withCustomAndroidManifest: ConfigPlugin = (config) => {
   return withAndroidManifest(config, (config) => {
     const androidManifest = config.modResults;
 
-    if (!androidManifest.manifest["uses-permission"]) {
-      androidManifest.manifest["uses-permission"] = [];
+    if (!androidManifest.manifest['uses-permission']) {
+      androidManifest.manifest['uses-permission'] = [];
     }
 
     // Check if the permission already exists
-    const permissionExists = androidManifest.manifest["uses-permission"].some(
+    const permissionExists = androidManifest.manifest['uses-permission'].some(
       (permission) =>
-        permission.$?.["android:name"] ===
-        "android.permission.DETECT_SCREEN_CAPTURE",
+        permission.$?.['android:name'] ===
+        'android.permission.DETECT_SCREEN_CAPTURE'
     );
 
     // Only add the permission if it doesn't already exist
     if (!permissionExists) {
-      androidManifest.manifest["uses-permission"].push({
+      androidManifest.manifest['uses-permission'].push({
         $: {
-          "android:name": "android.permission.DETECT_SCREEN_CAPTURE",
+          'android:name': 'android.permission.DETECT_SCREEN_CAPTURE',
         },
       });
     }

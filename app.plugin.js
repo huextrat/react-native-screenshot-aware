@@ -1,1 +1,1 @@
-module.exports = require("./lib/commonjs/plugin/withReactNativeScreenshotAware");
+module.exports = require('./lib/module/plugin/withReactNativeScreenshotAware');

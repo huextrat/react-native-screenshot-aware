@@ -1,47 +1,47 @@
-import { renderHook } from "@testing-library/react-native";
-import { NativeEventEmitter } from "react-native";
-import NativeScreenshotAware from "../codegenSpec/NativeScreenshotAware";
-import ScreenshotAware, { useScreenshotAware } from "../index";
+import { renderHook } from '@testing-library/react-native';
+import { NativeEventEmitter } from 'react-native';
+import NativeScreenshotAware from '../NativeScreenshotAware';
+import ScreenshotAware, { useScreenshotAware } from '../index';
 
-describe("ScreenshotAware", () => {
+describe('ScreenshotAware', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  it("should add and remove listener in useScreenshotAware hook", () => {
+  it('should add and remove listener in useScreenshotAware hook', () => {
     const callback = jest.fn();
     const { unmount } = renderHook(() => useScreenshotAware(callback));
 
     expect(NativeScreenshotAware.addListener).toHaveBeenCalledWith(
-      "ScreenshotAwareEvent",
+      'ScreenshotAwareEvent'
     );
 
     unmount();
     expect(NativeScreenshotAware.removeListeners).toHaveBeenCalledWith(1);
   });
 
-  it("should call the callback when a screenshot event occurs", () => {
+  it('should call the callback when a screenshot event occurs', () => {
     const callback = jest.fn();
     renderHook(() => useScreenshotAware(callback));
 
-    new NativeEventEmitter(NativeScreenshotAware).emit("ScreenshotAwareEvent");
+    new NativeEventEmitter(NativeScreenshotAware).emit('ScreenshotAwareEvent');
 
     expect(callback).toHaveBeenCalled();
   });
 
-  it("should add and remove listener in ScreenshotAware module", () => {
+  it('should add and remove listener in ScreenshotAware module', () => {
     const callback = jest.fn();
     const subscription = ScreenshotAware.addListener(callback);
 
     expect(NativeScreenshotAware.addListener).toHaveBeenCalledWith(
-      "ScreenshotAwareEvent",
+      'ScreenshotAwareEvent'
     );
 
     subscription.remove();
     expect(NativeScreenshotAware.removeListeners).toHaveBeenCalledWith(1);
   });
 
-  it("should remove all listeners in ScreenshotAware module", () => {
+  it('should remove all listeners in ScreenshotAware module', () => {
     ScreenshotAware.removeAllListeners();
 
     expect(NativeScreenshotAware.removeListeners).toHaveBeenCalled();
