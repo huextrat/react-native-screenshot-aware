@@ -1,31 +1,22 @@
 {
   "name": "react-native-screenshot-aware-example",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "build:android": "react-native build-android --extra-params \"--no-daemon --console=plain -PreactNativeArchitectures=arm64-v8a\"",
-    "build:ios": "react-native build-ios --scheme ScreenshotAwareExample --mode Debug --extra-params \"-sdk iphonesimulator CC=clang CPLUSPLUS=clang++ LD=clang LDPLUSPLUS=clang++ GCC_OPTIMIZATION_LEVEL=0 GCC_PRECOMPILE_PREFIX_HEADER=YES ASSETCATALOG_COMPILER_OPTIMIZATION=time DEBUG_INFORMATION_FORMAT=dwarf COMPILER_INDEX_STORE_ENABLE=NO\""
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
-    "react": "19.2.4",
-    "react-native": "0.84.1"
+    "expo": "~55.0.5",
+    "expo-status-bar": "~55.0.4",
+    "react": "19.2.0",
+    "react-native": "0.83.2"
   },
+  "private": true,
   "devDependencies": {
-    "@babel/core": "7.29.0",
-    "@babel/preset-env": "7.29.0",
-    "@babel/runtime": "7.28.6",
-    "@react-native-community/cli": "20.1.2",
-    "@react-native-community/cli-platform-android": "20.1.2",
-    "@react-native-community/cli-platform-ios": "20.1.2",
-    "@react-native/babel-preset": "0.84.1",
-    "@react-native/metro-config": "0.84.1",
-    "@react-native/typescript-config": "0.84.1",
-    "react-native-builder-bob": "0.40.18"
-  },
-  "engines": {
-    "node": ">=18"
+    "expo-dev-client": "~55.0.11",
+    "react-native-builder-bob": "^0.40.13",
+    "react-native-monorepo-config": "^0.3.3"
   }
 }

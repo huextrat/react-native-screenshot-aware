@@ -10,6 +10,8 @@
   Real-time screenshot detection for React Native apps
 </h3>
 
+> **v2 is here:** Version 2 supports **only the New Architecture**. Versions older than v2 are **no longer maintained**.
+
 ## Features
 
 - 🚀 Real-time screenshot detection
@@ -17,11 +19,12 @@
 - 🎣 Easy-to-use React hooks
 - ⚡ Optimized for performance
 - 📱 Supports Android 14+ (API level 34+) and iOS 14+
-- 🏗️ Supports the new architecture for React Native
-
+- 🏗️ New Architecture only
 
 ## Compatibility
 
+- **v2:** New Architecture only. No legacy architecture support.
+- **v1.x and below:** **No longer maintained.**
 - React Native <0.76, use version 1.2.2 or below 1.2.0 of this package (1.2.1 is buggy)
 - React Native >=0.76, use version 1.3.0 or later
 - React Native >=0.79, use version 1.3.10 or later

@@ -1,10 +1,10 @@
 package com.screenshotaware
 
 import com.facebook.react.BaseReactPackage
-import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.NativeModule
-import com.facebook.react.module.model.ReactModuleInfoProvider
+import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.module.model.ReactModuleInfo
+import com.facebook.react.module.model.ReactModuleInfoProvider
 import java.util.HashMap
 
 class ScreenshotAwarePackage : BaseReactPackage() {
@@ -16,18 +16,16 @@ class ScreenshotAwarePackage : BaseReactPackage() {
     }
   }
 
-  override fun getReactModuleInfoProvider(): ReactModuleInfoProvider {
-    return ReactModuleInfoProvider {
-      val moduleInfos: MutableMap<String, ReactModuleInfo> = HashMap()
-      moduleInfos[ScreenshotAwareModule.NAME] = ReactModuleInfo(
-        ScreenshotAwareModule.NAME,
-        ScreenshotAwareModule.NAME,
-        false,  // canOverrideExistingModule
-        false,  // needsEagerInit
-        false,  // isCxxModule
-        true // isTurboModule
+  override fun getReactModuleInfoProvider() = ReactModuleInfoProvider {
+    mapOf(
+      ScreenshotAwareModule.NAME to ReactModuleInfo(
+        name = ScreenshotAwareModule.NAME,
+        className = ScreenshotAwareModule.NAME,
+        canOverrideExistingModule = false,
+        needsEagerInit = false,
+        isCxxModule = false,
+        isTurboModule = true
       )
-      moduleInfos
-    }
+    )
   }
 }

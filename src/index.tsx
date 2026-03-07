@@ -1,6 +1,6 @@
-import { useEffect } from "react";
-import { NativeEventEmitter } from "react-native";
-import NativeScreenshotAware from "./codegenSpec/NativeScreenshotAware";
+import { useEffect } from 'react';
+import { NativeEventEmitter } from 'react-native';
+import NativeScreenshotAware from './NativeScreenshotAware';
 
 /**
  * @fileoverview This module provides functionality to detect screenshot events in a React Native application.
@@ -30,8 +30,8 @@ const moduleEventEmitter = new NativeEventEmitter(NativeScreenshotAware);
 export const useScreenshotAware = (callback: () => void) => {
   useEffect(() => {
     const subscription = moduleEventEmitter.addListener(
-      "ScreenshotAwareEvent",
-      callback,
+      'ScreenshotAwareEvent',
+      callback
     );
     return () => subscription.remove();
   }, [callback]);
@@ -70,14 +70,14 @@ const ScreenshotAware = {
    * @returns {import('react-native').EmitterSubscription} A subscription object that can be used to remove the listener.
    */
   addListener: (callback: () => void) => {
-    return moduleEventEmitter.addListener("ScreenshotAwareEvent", callback);
+    return moduleEventEmitter.addListener('ScreenshotAwareEvent', callback);
   },
 
   /**
    * Removes all listeners for screenshot events.
    */
   removeAllListeners: () =>
-    moduleEventEmitter.removeAllListeners("ScreenshotAwareEvent"),
+    moduleEventEmitter.removeAllListeners('ScreenshotAwareEvent'),
 };
 
 export default ScreenshotAware;
