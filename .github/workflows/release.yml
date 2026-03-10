@@ -9,13 +9,14 @@ on:
     branches:
       - main
 
-permissions:
-  id-token: write
-
 jobs:
   release:
     name: Release 🚀
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -32,4 +33,4 @@ jobs:
         run: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
