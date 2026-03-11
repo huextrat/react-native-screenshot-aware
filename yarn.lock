@@ -11865,7 +11865,7 @@ __metadata:
     react-native-builder-bob: "npm:0.40.18"
     react-test-renderer: "npm:19.2.4"
     semantic-release: "npm:25.0.3"
-    turbo: "npm:2.8.15"
+    turbo: "npm:2.8.16"
     typescript: "npm:5.9.3"
   peerDependencies:
     react: "*"
@@ -13467,58 +13467,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo-darwin-64@npm:2.8.15"
+"turbo-darwin-64@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo-darwin-64@npm:2.8.16"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-darwin-arm64@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo-darwin-arm64@npm:2.8.15"
+"turbo-darwin-arm64@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo-darwin-arm64@npm:2.8.16"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-linux-64@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo-linux-64@npm:2.8.15"
+"turbo-linux-64@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo-linux-64@npm:2.8.16"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-linux-arm64@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo-linux-arm64@npm:2.8.15"
+"turbo-linux-arm64@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo-linux-arm64@npm:2.8.16"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo-windows-64@npm:2.8.15"
+"turbo-windows-64@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo-windows-64@npm:2.8.16"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-windows-arm64@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo-windows-arm64@npm:2.8.15"
+"turbo-windows-arm64@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo-windows-arm64@npm:2.8.16"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo@npm:2.8.15":
-  version: 2.8.15
-  resolution: "turbo@npm:2.8.15"
+"turbo@npm:2.8.16":
+  version: 2.8.16
+  resolution: "turbo@npm:2.8.16"
   dependencies:
-    turbo-darwin-64: "npm:2.8.15"
-    turbo-darwin-arm64: "npm:2.8.15"
-    turbo-linux-64: "npm:2.8.15"
-    turbo-linux-arm64: "npm:2.8.15"
-    turbo-windows-64: "npm:2.8.15"
-    turbo-windows-arm64: "npm:2.8.15"
+    turbo-darwin-64: "npm:2.8.16"
+    turbo-darwin-arm64: "npm:2.8.16"
+    turbo-linux-64: "npm:2.8.16"
+    turbo-linux-arm64: "npm:2.8.16"
+    turbo-windows-64: "npm:2.8.16"
+    turbo-windows-arm64: "npm:2.8.16"
   dependenciesMeta:
     turbo-darwin-64:
       optional: true
@@ -13534,7 +13534,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 10/f2c485d4d29d8262b68cf71ad98a73b849a654912561dca7eaee8e32af8461d6b0707bc610f7cdf72b31cb86711f14dae70b92e1271fbad9b9347497bc814792
+  checksum: 10/5ef7589969691169087e7009982afcd8e960524d6559d02ac93e82354c86363df828889b7132de56a4fade5c357e67111a14ac438eada1e677fc24a28d5e1cad
   languageName: node
   linkType: hard
 
