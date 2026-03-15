@@ -65,8 +65,8 @@
     "provenance": true
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.4",
-    "@commitlint/config-conventional": "20.4.4",
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
     "@eslint/compat": "2.0.3",
     "@eslint/eslintrc": "3.3.5",
     "@eslint/js": "9.35.0",
@@ -77,7 +77,7 @@
     "@testing-library/react-native": "13.3.3",
     "@types/jest": "29.5.14",
     "@types/react": "19.1.12",
-    "commitlint": "20.4.4",
+    "commitlint": "20.5.0",
     "del-cli": "7.0.0",
     "eslint": "9.35.0",
     "eslint-config-prettier": "10.1.8",
