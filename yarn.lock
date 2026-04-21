@@ -3537,13 +3537,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/eslint-config@npm:0.85.1":
-  version: 0.85.1
-  resolution: "@react-native/eslint-config@npm:0.85.1"
+"@react-native/eslint-config@npm:0.85.2":
+  version: 0.85.2
+  resolution: "@react-native/eslint-config@npm:0.85.2"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@babel/eslint-parser": "npm:^7.25.1"
-    "@react-native/eslint-plugin": "npm:0.85.1"
+    "@react-native/eslint-plugin": "npm:0.85.2"
     "@typescript-eslint/eslint-plugin": "npm:^8.36.0"
     "@typescript-eslint/parser": "npm:^8.36.0"
     eslint-config-prettier: "npm:^8.5.0"
@@ -3556,14 +3556,14 @@ __metadata:
   peerDependencies:
     eslint: ^8.0.0 || ^9.0.0
     prettier: ">=2"
-  checksum: 10/f893a18ada505bda789227766f7a73c0c49f29376983b2ed1deccf08d97279ac58a2d85fc4475866eacc210f3ff083cc7d8d9b786f115d31c76579d874b2fd1b
+  checksum: 10/3f4188bb4f18eb64e4e46efeed6bd972edffb6eb47de425c076c5f9679768851fbf98b0129e61ec06fc5aaccf459f7f4f1f9c9af23baf3f2659992415e315777
   languageName: node
   linkType: hard
 
-"@react-native/eslint-plugin@npm:0.85.1":
-  version: 0.85.1
-  resolution: "@react-native/eslint-plugin@npm:0.85.1"
-  checksum: 10/eb04e01c5b75d50b9addb360b7eedcc497465ab17b8c08c5b1379059116c3a486bd7d533d0982d77886fa170cb91e0ffc59eaf63a747c9b73bbfd88550211e5d
+"@react-native/eslint-plugin@npm:0.85.2":
+  version: 0.85.2
+  resolution: "@react-native/eslint-plugin@npm:0.85.2"
+  checksum: 10/f94a72a28c58c5bd88143eb55bb4948d3ba28dcbdfdd12c27b4ca802ba1c89cd257cd2347ab0f249d311937015b36ae63452a30c9f9c8b0428bcc10c1e830981
   languageName: node
   linkType: hard
 
@@ -11626,7 +11626,7 @@ __metadata:
     "@eslint/eslintrc": "npm:3.3.5"
     "@eslint/js": "npm:9.35.0"
     "@react-native/babel-preset": "npm:0.85.2"
-    "@react-native/eslint-config": "npm:0.85.1"
+    "@react-native/eslint-config": "npm:0.85.2"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@testing-library/react-native": "npm:13.3.3"
