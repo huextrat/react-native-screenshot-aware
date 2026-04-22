@@ -1908,9 +1908,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/cli@npm:55.0.25":
-  version: 55.0.25
-  resolution: "@expo/cli@npm:55.0.25"
+"@expo/cli@npm:55.0.26":
+  version: 55.0.26
+  resolution: "@expo/cli@npm:55.0.26"
   dependencies:
     "@expo/code-signing-certificates": "npm:^0.0.6"
     "@expo/config": "npm:~55.0.15"
@@ -1980,7 +1980,7 @@ __metadata:
       optional: true
   bin:
     expo-internal: build/bin/cli
-  checksum: 10/61de3032f7e9d98226c5829d8d7c58a36dc4998be51d7f1fb6be22af7d788b42dfc93ffa52f70a6dabbd2662c502b9edf8eb58eb73e9de663374f56bd998db50
+  checksum: 10/7038f77ae092ec0514e0c5f8a32917a1cf0a6e6088e6f4c26dbef56996a765bbc7b7688258a55b100942eb511fad0c05695342605857bd8ce4d3809a55d62197
   languageName: node
   linkType: hard
 
@@ -6869,12 +6869,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:55.0.16, expo@npm:~55.0.5":
-  version: 55.0.16
-  resolution: "expo@npm:55.0.16"
+"expo@npm:55.0.17, expo@npm:~55.0.5":
+  version: 55.0.17
+  resolution: "expo@npm:55.0.17"
   dependencies:
     "@babel/runtime": "npm:^7.20.0"
-    "@expo/cli": "npm:55.0.25"
+    "@expo/cli": "npm:55.0.26"
     "@expo/config": "npm:~55.0.15"
     "@expo/config-plugins": "npm:~55.0.8"
     "@expo/devtools": "npm:55.0.2"
@@ -6913,7 +6913,7 @@ __metadata:
     expo: bin/cli
     expo-modules-autolinking: bin/autolinking
     fingerprint: bin/fingerprint
-  checksum: 10/1cbce4b2ce7d9d632c02f9f5a6ffdab584a9dfe36c9f71562c2e2881b14dbee4ba1189325c8024dbed620fa63a7e6303a7f8c4f16f1d906093fe7f84855931ba
+  checksum: 10/1633ed03547fcddf6ddb077b098049cb959f83f40b7529344a3b8b407e011708ba85f043198a2d1ebf42c9c8fbdf4a44b5bee65686c28375a9545e674001c6af
   languageName: node
   linkType: hard
 
@@ -11867,7 +11867,7 @@ __metadata:
     eslint: "npm:9.35.0"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-prettier: "npm:5.5.5"
-    expo: "npm:55.0.16"
+    expo: "npm:55.0.17"
     jest: "npm:29.7.0"
     prettier: "npm:3.8.3"
     react: "npm:19.2.4"
