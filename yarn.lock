@@ -6811,9 +6811,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-modules-autolinking@npm:55.0.18":
-  version: 55.0.18
-  resolution: "expo-modules-autolinking@npm:55.0.18"
+"expo-modules-autolinking@npm:55.0.19":
+  version: 55.0.19
+  resolution: "expo-modules-autolinking@npm:55.0.19"
   dependencies:
     "@expo/require-utils": "npm:^55.0.4"
     "@expo/spawn-async": "npm:^1.7.2"
@@ -6821,7 +6821,7 @@ __metadata:
     commander: "npm:^7.2.0"
   bin:
     expo-modules-autolinking: bin/expo-modules-autolinking.js
-  checksum: 10/d4976bf99b49c8f1e5d4885b11f47d8852f878da19e88c3a4e879e42498ed4d22185ed4ee56496583ee83bb6ba15fbdc1d82788b7403a12392d0640e1c56f914
+  checksum: 10/d7eafe7a93447dd0d8dc776572f84d6d5b5ec662e67375cb28d92bedb6a2dc0aead58f0e246b15fcd804f4d34b322c6abc49f4376370c6f59a95908a9d7ecbd6
   languageName: node
   linkType: hard
 
@@ -6869,9 +6869,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:55.0.17, expo@npm:~55.0.5":
-  version: 55.0.17
-  resolution: "expo@npm:55.0.17"
+"expo@npm:55.0.18, expo@npm:~55.0.5":
+  version: 55.0.18
+  resolution: "expo@npm:55.0.18"
   dependencies:
     "@babel/runtime": "npm:^7.20.0"
     "@expo/cli": "npm:55.0.26"
@@ -6891,7 +6891,7 @@ __metadata:
     expo-file-system: "npm:~55.0.17"
     expo-font: "npm:~55.0.6"
     expo-keep-awake: "npm:~55.0.6"
-    expo-modules-autolinking: "npm:55.0.18"
+    expo-modules-autolinking: "npm:55.0.19"
     expo-modules-core: "npm:55.0.23"
     pretty-format: "npm:^29.7.0"
     react-refresh: "npm:^0.14.2"
@@ -6913,7 +6913,7 @@ __metadata:
     expo: bin/cli
     expo-modules-autolinking: bin/autolinking
     fingerprint: bin/fingerprint
-  checksum: 10/1633ed03547fcddf6ddb077b098049cb959f83f40b7529344a3b8b407e011708ba85f043198a2d1ebf42c9c8fbdf4a44b5bee65686c28375a9545e674001c6af
+  checksum: 10/35136a1bdebdfc5c357276ccc53e86f71dbf32e26247add753da39ac604f7bc6c7932de0a45382cc89fc33d509cd0d1bfec339c05de8776118c27b20837027c7
   languageName: node
   linkType: hard
 
@@ -11860,7 +11860,7 @@ __metadata:
     eslint: "npm:9.35.0"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-prettier: "npm:5.5.5"
-    expo: "npm:55.0.17"
+    expo: "npm:55.0.18"
     jest: "npm:29.7.0"
     prettier: "npm:3.8.3"
     react: "npm:19.2.4"
