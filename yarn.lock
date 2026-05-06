@@ -11759,10 +11759,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^19.2.5":
-  version: 19.2.5
-  resolution: "react-is@npm:19.2.5"
-  checksum: 10/b2e18d4efd39496474956684a3757c43b9102af56add174abf2a46a6c1441dbdfe5fa7d9e7d7ebb42f543ffc9c7941fc74eb1e2bfdbf08979ea9e2ccc36da600
+"react-is@npm:^19.2.6":
+  version: 19.2.6
+  resolution: "react-is@npm:19.2.6"
+  checksum: 10/5248eb5cfc135794c110f97fc0716a9439dc641d6bccbb8c00487c6c492644592ce4dd959fd23790bf05c1f26e0b62f11322b1e51372715a96a4bc4565a17d74
   languageName: node
   linkType: hard
 
@@ -11859,7 +11859,7 @@ __metadata:
     react: "npm:19.2.4"
     react-native: "npm:0.84.1"
     react-native-builder-bob: "npm:0.41.0"
-    react-test-renderer: "npm:19.2.5"
+    react-test-renderer: "npm:19.2.6"
     semantic-release: "npm:25.0.3"
     turbo: "npm:2.9.9"
     typescript: "npm:6.0.3"
@@ -11981,15 +11981,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-test-renderer@npm:19.2.5":
-  version: 19.2.5
-  resolution: "react-test-renderer@npm:19.2.5"
+"react-test-renderer@npm:19.2.6":
+  version: 19.2.6
+  resolution: "react-test-renderer@npm:19.2.6"
   dependencies:
-    react-is: "npm:^19.2.5"
+    react-is: "npm:^19.2.6"
     scheduler: "npm:^0.27.0"
   peerDependencies:
-    react: ^19.2.5
-  checksum: 10/ab6a939eab52477f8166ede6b7ee277a01130b6dfcbd21fcfc51d1424750e097e8440ec3585543ac2ae66cc9875c8c5423eea08b83a31b1fe7f0fcd29fc33ab0
+    react: ^19.2.6
+  checksum: 10/c9c572d860977cea5227095421c932ba025d890a5fe1e2be398a7ae9df0671e5b7b26979e9b489850f725f76d33c0a581f210cfec92480e81c102ef915efd8be
   languageName: node
   linkType: hard
 
