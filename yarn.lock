@@ -11781,12 +11781,12 @@ __metadata:
   linkType: hard
 
 "react-native-monorepo-config@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "react-native-monorepo-config@npm:0.3.3"
+  version: 0.3.4
+  resolution: "react-native-monorepo-config@npm:0.3.4"
   dependencies:
     escape-string-regexp: "npm:^5.0.0"
     fast-glob: "npm:^3.3.3"
-  checksum: 10/d301020b38f80010bce38108a9e1b72deee3eb37f1ba5e2f0471dc0737584b8d25158a2e649c38ddbe890b653c29a69ef82d73c522473cfdb2396239ee84fcd8
+  checksum: 10/f74676482f749aa08e401c7b46f8399939c02efe221e20cf65083677ab7455bc35219104405d5b80526f3c69c85638f3474a56891c07d4a01677af25826f4bfb
   languageName: node
   linkType: hard
 
