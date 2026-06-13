@@ -87,7 +87,7 @@
     "prettier": "3.8.4",
     "react": "19.2.4",
     "react-native": "0.84.1",
-    "react-native-builder-bob": "0.41.0",
+    "react-native-builder-bob": "0.42.1",
     "react-test-renderer": "19.2.7",
     "semantic-release": "25.0.5",
     "turbo": "2.9.18",
