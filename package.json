@@ -74,7 +74,7 @@
     "@react-native/eslint-config": "0.86.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@testing-library/react-native": "13.3.3",
+    "@testing-library/react-native": "14.0.1",
     "@types/jest": "29.5.14",
     "@types/react": "19.1.12",
     "commitlint": "20.5.3",
