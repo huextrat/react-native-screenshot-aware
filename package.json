@@ -70,7 +70,7 @@
     "@eslint/compat": "2.1.0",
     "@eslint/eslintrc": "3.3.6",
     "@eslint/js": "9.35.0",
-    "@react-native/babel-preset": "0.86.1",
+    "@react-native/babel-preset": "0.86.2",
     "@react-native/eslint-config": "0.86.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
