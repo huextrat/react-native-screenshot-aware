@@ -3692,17 +3692,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/changelog@npm:6.0.3":
-  version: 6.0.3
-  resolution: "@semantic-release/changelog@npm:6.0.3"
+"@semantic-release/changelog@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@semantic-release/changelog@npm:7.0.0"
   dependencies:
-    "@semantic-release/error": "npm:^3.0.0"
-    aggregate-error: "npm:^3.0.0"
-    fs-extra: "npm:^11.0.0"
-    lodash: "npm:^4.17.4"
+    "@semantic-release/error": "npm:^4.0.0"
+    aggregate-error: "npm:^5.0.0"
+    lodash-es: "npm:^4.17.21"
   peerDependencies:
-    semantic-release: ">=18.0.0"
-  checksum: 10/99ff9a528ec018699d6a197e12d86a95968dafd204b9aab05c2339b229877e38f7cfcdcafe94422b3082b6eb871d2071e0d034a015f64d9984e41a4e2dac840a
+    semantic-release: ">=20.1.0"
+  checksum: 10/51750fe7f5bc782521d44232764a78d628a44d62886bc7df7c4b6a2b9b5044ad20145b3f744acb8ab8312c425202b84f2e4126fdcd03ac7f2b353c78ec678d9a
   languageName: node
   linkType: hard
 
@@ -3724,13 +3723,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/error@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@semantic-release/error@npm:3.0.0"
-  checksum: 10/29c4391ecbefd9ea991f8fdf5ab3ceb9c4830281da56d9dbacd945c476cb86f10c3b55cd4a6597098c0ea3a59f1ec4752132abeea633e15972f49f4704e61d35
-  languageName: node
-  linkType: hard
-
 "@semantic-release/error@npm:^4.0.0":
   version: 4.0.0
   resolution: "@semantic-release/error@npm:4.0.0"
@@ -3738,21 +3730,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/git@npm:10.0.1":
-  version: 10.0.1
-  resolution: "@semantic-release/git@npm:10.0.1"
+"@semantic-release/git@npm:11.0.1":
+  version: 11.0.1
+  resolution: "@semantic-release/git@npm:11.0.1"
   dependencies:
-    "@semantic-release/error": "npm:^3.0.0"
-    aggregate-error: "npm:^3.0.0"
+    "@semantic-release/error": "npm:^4.0.0"
+    aggregate-error: "npm:^5.0.0"
     debug: "npm:^4.0.0"
     dir-glob: "npm:^3.0.0"
-    execa: "npm:^5.0.0"
-    lodash: "npm:^4.17.4"
+    execa: "npm:^10.0.0"
+    lodash-es: "npm:^4.17.21"
     micromatch: "npm:^4.0.0"
-    p-reduce: "npm:^2.0.0"
+    p-reduce: "npm:^3.0.0"
   peerDependencies:
-    semantic-release: ">=18.0.0"
-  checksum: 10/1224b7508a2e471e4d99f65685bcccc305aa40820e12c9bc1d15e087dd47adf4339e574a29072e5c3428a4bd4b630d9ea5d37933e91e8c4de89c586d8c76873e
+    semantic-release: ">=20.1.0"
+  checksum: 10/07a5e2c2ddb3459f808c7d663e6ff035554bb8c6e9cb1f5171fb6a5e221d1fff2197687183a9029d11dea428cefa5558c8a9ae105ca3c2d141be54cb8b21705f
   languageName: node
   linkType: hard
 
@@ -4388,16 +4380,6 @@ __metadata:
   version: 7.1.4
   resolution: "agent-base@npm:7.1.4"
   checksum: 10/79bef167247789f955aaba113bae74bf64aa1e1acca4b1d6bb444bdf91d82c3e07e9451ef6a6e2e35e8f71a6f97ce33e3d855a5328eb9fad1bc3cc4cfd031ed8
-  languageName: node
-  linkType: hard
-
-"aggregate-error@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "aggregate-error@npm:3.1.0"
-  dependencies:
-    clean-stack: "npm:^2.0.0"
-    indent-string: "npm:^4.0.0"
-  checksum: 10/1101a33f21baa27a2fa8e04b698271e64616b886795fd43c31068c07533c7b3facfcaf4e9e0cab3624bd88f729a592f1c901a1a229c9e490eafce411a8644b79
   languageName: node
   linkType: hard
 
@@ -5339,13 +5321,6 @@ __metadata:
   version: 1.4.3
   resolution: "cjs-module-lexer@npm:1.4.3"
   checksum: 10/d2b92f919a2dedbfd61d016964fce8da0035f827182ed6839c97cac56e8a8077cfa6a59388adfe2bc588a19cef9bbe830d683a76a6e93c51f65852062cfe2591
-  languageName: node
-  linkType: hard
-
-"clean-stack@npm:^2.0.0":
-  version: 2.2.0
-  resolution: "clean-stack@npm:2.2.0"
-  checksum: 10/2ac8cd2b2f5ec986a3c743935ec85b07bc174d5421a5efc8017e1f146a1cf5f781ae962618f416352103b32c9cd7e203276e8c28241bbe946160cab16149fb68
   languageName: node
   linkType: hard
 
@@ -6651,6 +6626,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"execa@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "execa@npm:10.0.0"
+  dependencies:
+    "@sindresorhus/merge-streams": "npm:^4.0.0"
+    figures: "npm:^6.1.0"
+    get-stream: "npm:^9.0.1"
+    human-signals: "npm:^8.0.1"
+    is-plain-obj: "npm:^4.1.0"
+    is-stream: "npm:^4.0.1"
+    npm-run-path: "npm:^6.0.0"
+    path-key: "npm:^4.0.0"
+    pretty-ms: "npm:^9.3.0"
+    signal-exit: "npm:^4.1.0"
+    strip-final-newline: "npm:^4.0.0"
+    which-command: "npm:^0.1.0"
+    yoctocolors: "npm:^2.1.2"
+  checksum: 10/aabfff37e24dc5dcb0d85a19db50019b537c6045e917ef6ab9b4724b913c37e2bbe00c11706b4c8c29c33c2396e2c3e6cb40af67ca0dcdac6a99f95022fc1dd2
+  languageName: node
+  linkType: hard
+
 "execa@npm:^5.0.0":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
@@ -7393,7 +7389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^9.0.0":
+"get-stream@npm:^9.0.0, get-stream@npm:^9.0.1":
   version: 9.0.1
   resolution: "get-stream@npm:9.0.1"
   dependencies:
@@ -9583,7 +9579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.21, lodash@npm:^4.17.4":
+"lodash@npm:^4.17.21":
   version: 4.17.23
   resolution: "lodash@npm:4.17.23"
   checksum: 10/82504c88250f58da7a5a4289f57a4f759c44946c005dd232821c7688b5fcfbf4a6268f6a6cdde4b792c91edd2f3b5398c1d2a0998274432cff76def48735e233
@@ -11129,13 +11125,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-reduce@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "p-reduce@npm:2.1.0"
-  checksum: 10/99b26d36066a921982f25c575e78355824da0787c486e3dd9fc867460e8bf17d5fb3ce98d006b41bdc81ffc0aa99edf5faee53d11fe282a20291fb721b0cb1c7
-  languageName: node
-  linkType: hard
-
 "p-reduce@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-reduce@npm:3.0.0"
@@ -11510,7 +11499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-ms@npm:^9.2.0":
+"pretty-ms@npm:^9.2.0, pretty-ms@npm:^9.3.0":
   version: 9.3.0
   resolution: "pretty-ms@npm:9.3.0"
   dependencies:
@@ -11792,8 +11781,8 @@ __metadata:
     "@eslint/js": "npm:9.35.0"
     "@react-native/babel-preset": "npm:0.86.2"
     "@react-native/eslint-config": "npm:0.86.2"
-    "@semantic-release/changelog": "npm:6.0.3"
-    "@semantic-release/git": "npm:10.0.1"
+    "@semantic-release/changelog": "npm:7.0.0"
+    "@semantic-release/git": "npm:11.0.1"
     "@testing-library/react-native": "npm:13.3.3"
     "@types/jest": "npm:29.5.14"
     "@types/react": "npm:19.1.12"
@@ -13899,6 +13888,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"which-command@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "which-command@npm:0.1.0"
+  bin:
+    which-command: cli.js
+  checksum: 10/19f71ba9de01d3013d158d54a2ce44511fc7ae190591c94504e0295cd038f535856f87847a86aadcf9736161869d73c7812a5f5e97ef86c760575d9327898ab1
+  languageName: node
+  linkType: hard
+
 "which-typed-array@npm:^1.1.16, which-typed-array@npm:^1.1.19":
   version: 1.1.20
   resolution: "which-typed-array@npm:1.1.20"
@@ -14182,6 +14180,13 @@ __metadata:
   version: 2.1.2
   resolution: "yoctocolors@npm:2.1.2"
   checksum: 10/6ee42d665a4cc161c7de3f015b2a65d6c65d2808bfe3b99e228bd2b1b784ef1e54d1907415c025fc12b400f26f372bfc1b71966c6c738d998325ca422eb39363
+  languageName: node
+  linkType: hard
+
+"yoctocolors@npm:^2.1.2":
+  version: 2.2.0
+  resolution: "yoctocolors@npm:2.2.0"
+  checksum: 10/8b2761daad30ca3b5b717fc12d9a30aea23f8d757d355b29b6b53c3a570de236fd85b17040c5196b18573fe38a4a981f48f111efa9a29c743e0878e26137b2b1
   languageName: node
   linkType: hard
 
