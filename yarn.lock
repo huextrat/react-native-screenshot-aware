@@ -11809,7 +11809,7 @@ __metadata:
     react-native: "npm:0.84.1"
     react-native-builder-bob: "npm:0.43.0"
     react-test-renderer: "npm:19.2.8"
-    semantic-release: "npm:25.0.8"
+    semantic-release: "npm:25.0.9"
     turbo: "npm:2.10.7"
     typescript: "npm:6.0.3"
   peerDependencies:
@@ -12368,9 +12368,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:25.0.8":
-  version: 25.0.8
-  resolution: "semantic-release@npm:25.0.8"
+"semantic-release@npm:25.0.9":
+  version: 25.0.9
+  resolution: "semantic-release@npm:25.0.9"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^13.0.1"
     "@semantic-release/error": "npm:^4.0.0"
@@ -12402,7 +12402,7 @@ __metadata:
     yargs: "npm:^18.0.0"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 10/df6f5e800dee9a2379b60edc93393f1ee2003fba2037d938f4ccaeb17db3f1d2c864ee7d8b4d3dad7e0a13ea1ada028874cc4ebe585087f930bcb49027f85803
+  checksum: 10/90e34dc678e4ae57edff5769551bcf71f7ef1ee7cdcf0a091abb72cc1784ccd21d62f2ac99130b658cd7e2b464eeb5dd1000fdef48a27aa4d2c4674746e1e053
   languageName: node
   linkType: hard
 
