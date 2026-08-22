@@ -91,7 +91,7 @@
     "react-test-renderer": "19.2.8",
     "semantic-release": "25.0.9",
     "turbo": "2.10.11",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "react": "*",
