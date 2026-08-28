@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/huextrat/react-native-screenshot-aware/compare/v2.1.0...v2.1.1) (2026-08-28)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#603](https://github.com/huextrat/react-native-screenshot-aware/issues/603)) ([7ca92cf](https://github.com/huextrat/react-native-screenshot-aware/commit/7ca92cf5ae7c66f983cd68b73273f6c81a27f118))
+
 # [2.1.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v2.0.0...v2.1.0) (2026-08-28)
 
 
