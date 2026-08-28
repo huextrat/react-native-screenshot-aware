@@ -11542,7 +11542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:0.43.0, react-native-builder-bob@npm:^0.43.0":
+"react-native-builder-bob@npm:0.43.0":
   version: 0.43.0
   resolution: "react-native-builder-bob@npm:0.43.0"
   dependencies:
@@ -11574,7 +11574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-monorepo-config@npm:^0.4.0":
+"react-native-monorepo-config@npm:0.4.0":
   version: 0.4.0
   resolution: "react-native-monorepo-config@npm:0.4.0"
   dependencies:
@@ -11595,8 +11595,8 @@ __metadata:
     expo-system-ui: "npm:~57.0.3"
     react: "npm:19.2.3"
     react-native: "npm:0.86.3"
-    react-native-builder-bob: "npm:^0.43.0"
-    react-native-monorepo-config: "npm:^0.4.0"
+    react-native-builder-bob: "npm:0.43.0"
+    react-native-monorepo-config: "npm:0.4.0"
   languageName: unknown
   linkType: soft
 
