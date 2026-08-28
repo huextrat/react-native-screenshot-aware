@@ -8,21 +8,21 @@ describe('ScreenshotAware', () => {
     jest.clearAllMocks();
   });
 
-  it('should add and remove listener in useScreenshotAware hook', () => {
+  it('should add and remove listener in useScreenshotAware hook', async () => {
     const callback = jest.fn();
-    const { unmount } = renderHook(() => useScreenshotAware(callback));
+    const { unmount } = await renderHook(() => useScreenshotAware(callback));
 
     expect(NativeScreenshotAware.addListener).toHaveBeenCalledWith(
       'ScreenshotAwareEvent'
     );
 
-    unmount();
+    await unmount();
     expect(NativeScreenshotAware.removeListeners).toHaveBeenCalledWith(1);
   });
 
-  it('should call the callback when a screenshot event occurs', () => {
+  it('should call the callback when a screenshot event occurs', async () => {
     const callback = jest.fn();
-    renderHook(() => useScreenshotAware(callback));
+    await renderHook(() => useScreenshotAware(callback));
 
     new NativeEventEmitter(NativeScreenshotAware).emit('ScreenshotAwareEvent');
 
