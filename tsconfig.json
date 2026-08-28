@@ -2,27 +2,19 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-screenshot-aware": [
-        "./src/index"
-      ]
+      "react-native-screenshot-aware": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "customConditions": [
-      "react-native-strict-api"
-    ],
+    "customConditions": ["react-native-strict-api"],
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -30,8 +22,6 @@
     "skipLibCheck": true,
     "target": "ESNext",
     "verbatimModuleSyntax": true,
-    "types": [
-      "jest"
-    ]
+    "types": ["jest"]
   }
 }
