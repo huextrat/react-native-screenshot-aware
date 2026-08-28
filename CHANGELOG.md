@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.1.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v2.0.0...v2.1.0) (2026-08-28)
+
+
+### Features
+
+* refresh dependencies and Renovate configuration ([#601](https://github.com/huextrat/react-native-screenshot-aware/issues/601)) ([595404d](https://github.com/huextrat/react-native-screenshot-aware/commit/595404d51fa1a5705f2d83c3871ad4e5bd7dea0e))
+
 # [2.0.0](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.21...v2.0.0) (2026-03-07)
 
 ## [1.3.21](https://github.com/huextrat/react-native-screenshot-aware/compare/v1.3.20...v1.3.21) (2026-03-04)
