@@ -94,7 +94,7 @@
     "semantic-release": "25.0.9",
     "test-renderer": "1.2.0",
     "turbo": "2.10.12",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "react": "*",
