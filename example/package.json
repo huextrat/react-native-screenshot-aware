@@ -13,7 +13,7 @@
     "expo-status-bar": "~57.0.1",
     "expo-system-ui": "~57.0.3",
     "react": "19.2.8",
-    "react-native": "0.87.0"
+    "react-native": "0.87.1"
   },
   "private": true,
   "devDependencies": {
