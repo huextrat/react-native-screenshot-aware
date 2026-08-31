@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices", ":automergeStableNonMajor"],
+  "enabledManagers": ["npm", "nvm", "github-actions"],
   "packageRules": [
     {
       "description": "Group React Native and Expo ecosystem updates for manual review",
@@ -15,11 +16,6 @@
         "expo-*",
         "@expo/**"
       ],
-      "automerge": false
-    },
-    {
-      "description": "Require manual review for native dependency updates",
-      "matchManagers": ["bundler", "cocoapods", "gradle", "gradle-wrapper"],
       "automerge": false
     }
   ]
