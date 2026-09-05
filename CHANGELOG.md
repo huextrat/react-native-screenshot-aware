@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/huextrat/react-native-screenshot-aware/compare/v2.1.2...v2.1.3) (2026-09-05)
+
+
+### Bug Fixes
+
+* **android:** skip explicit Kotlin plugin when AGP registers the kotlin extension ([#613](https://github.com/huextrat/react-native-screenshot-aware/issues/613)) ([c1f8fb0](https://github.com/huextrat/react-native-screenshot-aware/commit/c1f8fb074b16b6f943d2501957d4fcb1872f57c5))
+
 ## [2.1.2](https://github.com/huextrat/react-native-screenshot-aware/compare/v2.1.1...v2.1.2) (2026-08-29)
 
 
