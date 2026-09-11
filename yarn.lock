@@ -11606,9 +11606,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:0.43.0":
-  version: 0.43.0
-  resolution: "react-native-builder-bob@npm:0.43.0"
+"react-native-builder-bob@npm:0.43.1":
+  version: 0.43.1
+  resolution: "react-native-builder-bob@npm:0.43.1"
   dependencies:
     "@babel/core": "npm:^7.29.0"
     "@babel/plugin-transform-flow-strip-types": "npm:^7.27.1"
@@ -11634,7 +11634,7 @@ __metadata:
     yargs: "npm:^18.0.0"
   bin:
     bob: bin/bob
-  checksum: 10/81c28299a8af19f4ffd8c3b96ce86a07b51a41bdd82a5000e6bb8d960155660ea62b8ffb958511231b3891c815a71f9d95a46ff9f2e738fa2101889d92f52538
+  checksum: 10/c5682bb6da7a7d96f8201e0afaa4efde148ed9e9009b94297066b45809993ac9c55117221b84925824019c13a13b0d35eb09cb6fa21e71cd712e9e03bff3e801
   languageName: node
   linkType: hard
 
@@ -11659,7 +11659,7 @@ __metadata:
     expo-system-ui: "npm:~57.0.3"
     react: "npm:19.2.8"
     react-native: "npm:0.87.1"
-    react-native-builder-bob: "npm:0.43.0"
+    react-native-builder-bob: "npm:0.43.1"
     react-native-monorepo-config: "npm:0.4.0"
   languageName: unknown
   linkType: soft
@@ -11691,7 +11691,7 @@ __metadata:
     prettier: "npm:3.9.6"
     react: "npm:19.2.8"
     react-native: "npm:0.87.1"
-    react-native-builder-bob: "npm:0.43.0"
+    react-native-builder-bob: "npm:0.43.1"
     semantic-release: "npm:25.0.9"
     test-renderer: "npm:1.2.0"
     turbo: "npm:2.10.12"
