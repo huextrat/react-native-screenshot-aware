@@ -90,7 +90,7 @@
     "prettier": "3.9.6",
     "react": "19.2.8",
     "react-native": "0.87.1",
-    "react-native-builder-bob": "0.43.0",
+    "react-native-builder-bob": "0.43.1",
     "semantic-release": "25.0.9",
     "test-renderer": "1.2.0",
     "turbo": "2.10.12",
