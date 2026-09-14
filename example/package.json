@@ -12,12 +12,12 @@
     "expo-splash-screen": "~57.0.8",
     "expo-status-bar": "~57.0.1",
     "expo-system-ui": "~57.0.3",
-    "react": "19.2.8",
+    "react": "19.3.0",
     "react-native": "0.87.1"
   },
   "private": true,
   "devDependencies": {
-    "expo-dev-client": "57.0.16",
+    "expo-dev-client": "57.0.19",
     "react-native-builder-bob": "0.43.0",
     "react-native-monorepo-config": "0.4.0"
   }
