@@ -93,7 +93,7 @@
     "react-native-builder-bob": "0.43.0",
     "semantic-release": "25.0.9",
     "test-renderer": "1.2.0",
-    "turbo": "2.10.12",
+    "turbo": "2.10.13",
     "typescript": "6.0.3"
   },
   "peerDependencies": {
