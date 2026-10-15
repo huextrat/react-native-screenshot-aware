@@ -4028,12 +4028,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-reconciler@npm:~0.33.0":
-  version: 0.33.0
-  resolution: "@types/react-reconciler@npm:0.33.0"
+"@types/react-reconciler@npm:~0.34.0":
+  version: 0.34.0
+  resolution: "@types/react-reconciler@npm:0.34.0"
   peerDependencies:
     "@types/react": "*"
-  checksum: 10/b65408e08f9e9924a6040fb7a4820ed12efdad598dccb9e08efc70a7101199cce4a5aa1f8695a82d8efe7b503bd9b8dc5122db8a23bac39f9bc473d595873ba4
+  checksum: 10/3e086d697cb5f7417a6cf69cfafceab8339f862ad9c0992a29663c73f45a14baec8dc298ea9329de46c78510258ccf0429b9ad5dbad4cf853f08aeef9a603fb0
   languageName: node
   linkType: hard
 
@@ -11693,7 +11693,7 @@ __metadata:
     react-native: "npm:0.87.1"
     react-native-builder-bob: "npm:0.43.0"
     semantic-release: "npm:25.0.9"
-    test-renderer: "npm:1.3.0"
+    test-renderer: "npm:1.3.1"
     turbo: "npm:2.11.7"
     typescript: "npm:6.0.3"
   peerDependencies:
@@ -13072,15 +13072,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"test-renderer@npm:1.3.0":
-  version: 1.3.0
-  resolution: "test-renderer@npm:1.3.0"
+"test-renderer@npm:1.3.1":
+  version: 1.3.1
+  resolution: "test-renderer@npm:1.3.1"
   dependencies:
-    "@types/react-reconciler": "npm:~0.33.0"
+    "@types/react-reconciler": "npm:~0.34.0"
     react-reconciler: "npm:~0.34.0"
   peerDependencies:
     react: ^19.0.0
-  checksum: 10/05e3f03dedfdd5e96ff632d5cdc6f4fd7eb1210cb8de005c5403e016e44bff94a70f83d9ab010e833c43a20879853968330322f8544e3e5578104f29f54b5320
+  checksum: 10/9af4e4e371dd9eaf81707f8a454fd02accaf43eb0f4c27bce0025adc6a9ecd974722ddee607635e0ce90076bf21ca1d7a026515adabe14d9c842f21ffec49a77
   languageName: node
   linkType: hard
 
