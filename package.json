@@ -81,7 +81,7 @@
     "@types/jest": "29.5.14",
     "@types/react": "19.2.18",
     "commitlint": "21.2.4",
-    "del-cli": "7.0.0",
+    "del-cli": "8.0.1",
     "eslint": "9.39.5",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.7",
